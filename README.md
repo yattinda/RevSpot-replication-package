@@ -51,7 +51,8 @@ It will install all dependencies need for the experiment.
 
 ### Executing program
 
-Now we can start running the experiment. 
+Due to the upload limitation of Github for the file size, we save our dataset and prebuild repoduce packpage at:
+Now we can start running the experiment. Just run each script from top to down. 
 
 ## License
 
