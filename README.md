@@ -7,6 +7,7 @@ This reproduce package is created for paper "Where Should I Look at? Recommendin
 There are two main parts in our work. The first part is data process(see data_process folder) part to process the raw dataset and generate csv files. 
 We implement the experiment for this part with Python, Jupyter notebook for IDE and Conda for environment.
 The second part is data evaluation(see data_eval folder) part to evaluate the experiment result with csv files generated in previous step. We use R and R studio for IDE in this part. The package structure with respect to RQ is as follows:
+```
     .
     ├── ...
     ├── data_eval                 # Data evaluation (R)
@@ -22,7 +23,7 @@ The second part is data evaluation(see data_eval folder) part to evaluate the ex
     │   │   └── Line_level.ipynb  # Line level data process for RQ2-3
     ├── env                       # Conda environment files
     └── ...
-    
+```   
 ## Getting Started
 
 ### Dependencies
@@ -39,14 +40,14 @@ The second part is data evaluation(see data_eval folder) part to evaluate the ex
 
 ### Installing
 
-* For data process part, we save our conda environment file in env folder. Create the new env with file:
-* ```
-* conda env create -f environment.yml
-* ```
-* ```
-* conda activate YOUR_ENV
-* ```
-* It will install all dependencies need for the experiment.
+For data process part, we save our conda environment file in env folder. Create the new env with file:
+```
+conda env create -f environment.yml
+```
+```
+conda activate YOUR_ENV
+```
+It will install all dependencies need for the experiment.
 
 ### Executing program
 
