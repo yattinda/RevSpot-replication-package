@@ -6,7 +6,22 @@ This reproduce package is created for paper "Where Should I Look at? Recommendin
 
 There are two main parts in our work. The first part is data process(see data_process folder) part to process the raw dataset and generate csv files. 
 We implement the experiment for this part with Python, Jupyter notebook for IDE and Conda for environment.
-The second part is data evaluation(see data_eval folder) part to evaluate the experiment result with csv files generated in previous step. We use R and R studio for IDE in this part.
+The second part is data evaluation(see data_eval folder) part to evaluate the experiment result with csv files generated in previous step. We use R and R studio for IDE in this part. The package structure with respect to RQ is as follows:
+.
+├── data_eval                 # Data evaluation (R)
+├── ├── figures
+├── ├── RQ1_analysis.R. #File level evaluation for RQ1
+├── ├── RQ2-3-analysis.R #Line level evaluation for RQ2-3
+├── ├── motivation.R #Motivation 
+├── data_process              # Data process (Python)
+├── ├── commented #Predict the inline comment location
+├── ├── ├── File_Level.ipynb #File level data process for RQ1
+├── ├── ├── Line_level.ipynb #Line level data process for RQ2-3
+├── ├── revised #Predict the lines to be revised
+├── ├── ├── File_Level.ipynb #File level data process for RQ1
+├── ├── ├── Line_level.ipynb #Line level data process for RQ2-3
+├── env                     # Conda environment files
+└── README.md
 
 ## Getting Started
 
@@ -17,10 +32,10 @@ The second part is data evaluation(see data_eval folder) part to evaluate the ex
 * For data evaluation part, we use macOS Big Sur (11.3)
 
 ## Package dependencies
-Data Process(Python)  | Data Evaluation(R)
-------------- | -------------
-sklearn  | Content Cell
-numpy  | Content Cell
+|                      | Packages                                                                                                        |
+|----------------------|-----------------------------------------------------------------------------------------------------------------|
+| Data Process(Python) | sklearn, numpy, pandas, scipy, lime, time,  pickle, math, warnings, os, operator, matplotlib, csv,math,imblearn |
+| Data Evaluation(R)   | ggplot2,dplyr,tidyverse,gridExtra,ggpubr                                                                        |
 
 ### Installing
 
@@ -32,11 +47,7 @@ numpy  | Content Cell
 
 ### Executing program
 
-* How to run the program
-* Step-by-step bullets
-```
-code blocks for commands
-```
+Now we can start running the experiment. 
 
 ## Help
 
