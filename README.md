@@ -24,6 +24,16 @@ The second part is data evaluation(see data_eval folder) part to evaluate the ex
    ├── env                     # Conda environment files
    └── README.md
 
+    .
+    ├── ...
+    ├── docs                    # Documentation files (alternatively `doc`)
+    │   ├── TOC.md              # Table of contents
+    │   ├── faq.md              # Frequently asked questions
+    │   ├── misc.md             # Miscellaneous information
+    │   ├── usage.md            # Getting started guide
+    │   └── ...                 # etc.
+    └── ...
+    
 ## Getting Started
 
 ### Dependencies
