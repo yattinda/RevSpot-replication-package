@@ -5,19 +5,30 @@ This reproduce package is created for paper "Where Should I Look at? Recommendin
 ## Description
 
 There are two main parts in our work. The first part is data process(see data_process folder) part to process the raw dataset and generate csv files. 
-The second part is data evaluation(see data_eval folder) part to evaluate the experiment result with csv files generated in previous step. 
+We implement the experiment for this part with Python, Jupyter notebook for IDE and Conda for environment.
+The second part is data evaluation(see data_eval folder) part to evaluate the experiment result with csv files generated in previous step. We use R and R studio for IDE in this part.
 
 ## Getting Started
 
 ### Dependencies
 
+## System dependencies
 * For data process part, we use Ubuntu 20.04.3 LTS
 * For data evaluation part, we use macOS Big Sur (11.3)
 
+## Package dependencies
+Data Process(Python)  | Data Evaluation(R)
+------------- | -------------
+sklearn  | Content Cell
+numpy  | Content Cell
+
 ### Installing
 
-* How/where to download your program
-* Any modifications needed to be made to files/folders
+* For data process part, we save our conda environment file in env folder. Create the new env with file:
+* ```
+* conda env create -f environment.yml
+* ```
+* It will install all dependencies need for the experiment.
 
 ### Executing program
 
