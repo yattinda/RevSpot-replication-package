@@ -26,12 +26,18 @@ The second part is data evaluation(see data_eval folder) part to evaluate the ex
 
     .
     ├── ...
-    ├── docs                    # Documentation files (alternatively `doc`)
-    │   ├── TOC.md              # Table of contents
-    │   ├── faq.md              # Frequently asked questions
-    │   ├── misc.md             # Miscellaneous information
-    │   ├── usage.md            # Getting started guide
-    │   └── ...                 # etc.
+    ├── data_eval                 # Data evaluation (R)
+    │   ├── RQ1_analysis.R.       # File level evaluation for RQ1
+    │   ├── RQ2-3-analysis.R      # Line level evaluation for RQ2-3
+    │   └── motivation.R          # Motivation 
+    ├── data_process              # Data process (Python)
+    │   ├── commented             # Predict the inline comment location
+    │   │   ├── File_Level.ipynb  # File level data process for RQ1
+    │   │   ├── Line_level.ipynb  # Line level data process for RQ2-3
+    │   ├── revised               # Predict the lines to be revised
+    │   │   ├── File_Level.ipynb  # File level data process for RQ1
+    │   │   └── Line_level.ipynb  # Line level data process for RQ2-3
+    ├── env                       # Conda environment files
     └── ...
     
 ## Getting Started
