@@ -11,19 +11,18 @@ The second part is data evaluation(see data_eval folder) part to evaluate the ex
     .
     ├── ...
     ├── data_eval                 # Data evaluation (R)
-    │   ├── dataset               # dataset
-    │   │   ├── csv               # output files of data process
-    │   │   ├── eval_file         # input and output files for ngram average entropy
-    │   │   ├── fileLevel         # raw data for file level model
-    │   │   ├── lime-feature-model    # trained LIME model
-    │   │   ├── lineLevel             # raw data for line level model
-    │   │   ├── ml-model               # trained file-level model
-    │   └── └──motivation.R          # Motivation 
     │   ├── RQ1_analysis.R.       # File level evaluation for RQ1
     │   ├── RQ2-3-analysis.R      # Line level evaluation for RQ2-3
     │   └── motivation.R          # Motivation 
     ├── data_process              # Data process (Python)
     │   ├── commented             # Predict the inline comment location
+    │   │   ├── dataset               # dataset
+    │   │   ├── csv               # output files of data process
+    │   │   ├── eval_file         # input and output files for ngram average entropy
+    │   │   ├── fileLevel         # raw data for file level model
+    │   │   ├── lime-feature-model    # trained LIME model
+    │   │   ├── lineLevel             # raw data for line level model
+    │   └── └── ml-model               # trained file-level model
     │   │   ├── File_Level.ipynb  # File level data process for RQ1
     │   │   ├── Line_level.ipynb  # Line level data process for RQ2-3
     │   ├── revised               # Predict the lines to be revised
