@@ -68,5 +68,4 @@ https://github.com/SLP-team/SLP-Core/blob/master/src/main/java/slp/core/example/
 
 This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
 
-## Contact Author
-Yang Hong -> yang.hong1@monash.edu
+
