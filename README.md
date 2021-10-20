@@ -1,4 +1,4 @@
-# recommending-lines-reproduce-package
+# recommending-lines-replication-package
 
 This reproduce package is created for paper "Where Should I Look at? Recommending Lines thatReviewers Should Pay Attention To".
 
