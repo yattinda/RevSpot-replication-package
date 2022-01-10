@@ -40,7 +40,7 @@ nova_rel_s <- nova_rel %>% filter(isLarge=="Small Patches") %>% ungroup() %>% se
 apply(nova_rel_l,2,median)
 apply(nova_rel_s,2,median)
 
-
+nova_rel
 ironic_rel_l <- ironic_rel %>% filter(isLarge=="Large Patches") %>% ungroup() %>% select(c(initial_feedback_time))
 ironic_rel_s <- ironic_rel %>% filter(isLarge=="Small Patches") %>% ungroup() %>% select(c(initial_feedback_time))
 apply(ironic_rel_l,2,median)
@@ -66,10 +66,10 @@ nova_size <- code_size %>% filter(dataset=="OpenstackNova")
 ironic_size <- code_size %>% filter(dataset=="OpenstackIronic")
 base_size <- code_size %>% filter(dataset=="QtBase")
 
-# The Welch's t-test
-t.test(nova_rel_l,nova_rel_s)
-t.test(ironic_rel_l,ironic_rel_s)
-t.test(base_rel_l,base_rel_s)
+# The Mann-Whitney test
+wilcox.test(nova_rel$initial_feedback_time~nova_rel$isLarge)
+wilcox.test(ironic_rel$initial_feedback_time~ironic_rel$isLarge)
+wilcox.test(base_rel$initial_feedback_time~base_rel$isLarge)
 
 pdf("./figures/motivation.pdf", width=6, height = 6)
 g2+g1 | g4_1/g4_2/g4_3
