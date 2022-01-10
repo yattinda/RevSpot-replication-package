@@ -40,13 +40,11 @@ The second part is data evaluation(see data_eval folder) part to evaluate the ex
 
 ## Getting Started
 
-### Dependencies
-
-## System dependencies
+### System dependencies
 * For data process part, we use Ubuntu 20.04.3 LTS
 * For data evaluation part, we use macOS Big Sur (11.3)
 
-## Package dependencies
+### Package dependencies
 |                      | Packages                                                                                                        |
 |----------------------|-----------------------------------------------------------------------------------------------------------------|
 | Data Process(Python) | sklearn, numpy, pandas, scipy, lime, time,  pickle, math, warnings, os, operator, matplotlib, csv,math,imblearn |
