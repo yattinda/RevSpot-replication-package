@@ -1,0 +1,172 @@
+,,,,,
+,,,,,
+Label,dataset,changeId,fileName,lineNumber,token
+,,,,,
+Structure,base,Ie6a3d8dd494f981e8706b9a66a1021dfb51baec4,src/plugins/platforms/xcb/qxcbconnection_xi2.cpp,252,QString name QString fromUtf nameRaw
+Visual,base,I0ff4ed146fe53922691d5473d0c236f31d478a04,src/corelib/io/qresource.cpp,1589,if file CanonicalPathName
+Visual,base,I0ff4ed146fe53922691d5473d0c236f31d478a04,src/corelib/io/qresource.cpp,431,for int kid kid related children size kid
+Visual,base,I0ff4ed146fe53922691d5473d0c236f31d478a04,src/corelib/io/qresource.cpp,793,name offset jump past hash
+Visual,base,Ibe796c398a8e5488b7203abb07aa54740744f1ab,src/corelib/tools/qvarlengtharray.h,323,const std less const T less
+Documentation,base,I99eeb5a1aab03cbc574fac7187d85a8a2d60cf34,src/widgets/widgets/qtabbar.cpp,2726,environment variable QT NO TAB BAR SCROLLING to
+Logic,base,I4cf81c8283262cbf59ee3fb7064a59837332ced7,src/gui/kernel/qevent.h,408,Qt NativeGestureType m gestureType
+Documentation,base,Ibe810e77fd1b715a6bea66cd3f44312b015ac274,tests/auto/network/ssl/qsslsocket/tst_qsslsocket.cpp,619,const QString nonExisting QStringLiteral non existing backend
+Logic,base,I43803a0dfe210353d0235f0373d2257f75ffe534,src/corelib/kernel/qproperty.h,488,quintptr makeBinding makeBinding encodes whether the struct has a takeBinding member in its high bit
+Documentation,base,I0ff4ed146fe53922691d5473d0c236f31d478a04,src/corelib/io/qresource.cpp,873,offset jump past name
+Visual,base,Ibe796c398a8e5488b7203abb07aa54740744f1ab,src/corelib/tools/qvarlengtharray.h,300,inline iterator erase const iterator pos return erase pos pos
+Visual,base,I0ff4ed146fe53922691d5473d0c236f31d478a04,src/corelib/io/qresource.cpp,1285,if res type QResourceRoot Resource File
+Visual,base,I0ff4ed146fe53922691d5473d0c236f31d478a04,src/corelib/io/qresource.cpp,940,int offset findOffset node jump past name
+Visual,base,I0ff4ed146fe53922691d5473d0c236f31d478a04,src/corelib/io/qresource.cpp,422,for int i i related size i
+Visual,base,I0ff4ed146fe53922691d5473d0c236f31d478a04,src/corelib/io/qresource.cpp,931,const int offset findOffset node jump past name
+Structure,base,I05877de9c02857594e76b24d52e7578bdb01df69,src/network/ssl/qsslsocket.cpp,1613,qCWarning lcSsl Cannot provide the list of supported protocols for the backend backendName
+Visual,base,Ibe796c398a8e5488b7203abb07aa54740744f1ab,src/corelib/tools/qvarlengtharray.h,268,inline const T constData const return ptr
+Logic,base,I9d74f9d8b74b5ac35dce3528e7a2006746a00676,src/corelib/global/qglobal.h,92,ifdef Q CC MSVC
+Logic,base,I349af43468b03fd8dcb16adba02669974affe154,src/plugins/platforms/ios/qiosviewcontroller.mm,584,qtMods Qt KeypadModifier
+Visual,base,I0ff4ed146fe53922691d5473d0c236f31d478a04,src/corelib/io/qresource.cpp,1352,for int i i list size i
+Visual,base,I0ff4ed146fe53922691d5473d0c236f31d478a04,src/corelib/io/qresource.cpp,1126,setSource version b tree offset b name offset b data offset
+Visual,base,I0ff4ed146fe53922691d5473d0c236f31d478a04,src/corelib/io/qresource.cpp,381,if related isEmpty
+Visual,base,I0ff4ed146fe53922691d5473d0c236f31d478a04,src/corelib/io/qresource.cpp,780,name offset jump past name length
+Visual,base,I0ff4ed146fe53922691d5473d0c236f31d478a04,src/corelib/io/qresource.cpp,1572,if file BaseName
+Visual,base,I0ff4ed146fe53922691d5473d0c236f31d478a04,src/corelib/io/qresource.cpp,1466,if len size d offset
+Documentation,base,I39215c5e51c7bd27f1dd29e1d9d908aecf754fb7,src/gui/text/qtextdocument.cpp,2206,sa QTextDocument ResourceProvider
+Logic,base,Ic90d8429a0eb4837971dfffd1664f776b2c0edfd,src/corelib/io/qprocess_unix.cpp,952,argv strdup QFile encodeName resolveExecutable program constData
+Logic,base,I9556cd384ef99a623b5b8723b65f16eb9e1df767,src/corelib/tools/qarraydataops.h,401,this ptr e b
+Documentation,base,Ic90d8429a0eb4837971dfffd1664f776b2c0edfd,src/corelib/io/qprocess_unix.cpp,463,Resolve the program name
+Visual,base,I0ff4ed146fe53922691d5473d0c236f31d478a04,src/corelib/io/qresource.cpp,947,if flags Directory
+Logic,base,I6905c393647d31fab958cdd9471bb0a6ffe83596,src/gui/util/qktxhandler.cpp,157,decode reinterpret cast const quint buf constData offset
+Logic,base,I51d0b8238c73e5860c40d3b74577ddb8926647a3,src/network/ssl/qasn1element.cpp,337,const qint limit std numeric limits qint max
+Logic,base,Id6add27fcf9bbbe5fbf83a193652edf08fbad8d6,tests/auto/network/socket/qtcpsocket/tst_qtcpsocket.cpp,2094,bool connect to unreachable host is broken
+Structure,base,Iae026378831799dc676e1aba7d5bd6a0d1c01e7f,src/plugins/platforms/windows/qwindowsmime.cpp,306,flip image vertically bi bVHeight bpl data
+Logic,base,Ie50ae2d4a75477cfdae9d5bd4bddf268426d95b5,src/corelib/tools/qarraydataops.h,803,if constexpr std is nothrow copy constructible v T
+Logic,base,I1e2b7f033f0e8166c0b21e31a62b3e6d37b9344a,src/corelib/global/qnumeric.h,78,Q CORE EXPORT constexpr typename std enable if std is integral T value bool type
+Visual,base,I0ff4ed146fe53922691d5473d0c236f31d478a04,src/corelib/io/qresource.cpp,945,offset jump past locale
+Visual,base,I087d7d949cfd43e48e8a008621a4eeaa9d104ceb,src/corelib/global/qlogging.cpp,1679,for int i i message length i maxOutputStringLength
+Visual,base,I087d7d949cfd43e48e8a008621a4eeaa9d104ceb,src/corelib/global/qlogging.cpp,1161,tokens reset new const char lexemes size
+Visual,base,Ibe796c398a8e5488b7203abb07aa54740744f1ab,src/corelib/tools/qvarlengtharray.h,134,const auto otherInlineStorage reinterpret cast T other array
+Visual,base,I0ff4ed146fe53922691d5473d0c236f31d478a04,src/corelib/io/qresource.cpp,413,if children isEmpty container related isEmpty
+Visual,base,I087d7d949cfd43e48e8a008621a4eeaa9d104ceb,src/corelib/global/qsimd.cpp,674,ptr sizeof randuint sizeof ptr
+Structure,base,I0ff4ed146fe53922691d5473d0c236f31d478a04,src/corelib/io/qresource.cpp,1229,if r isEmpty
+Structure,base,I2a09b1dcdd907d60085dccf17f987086dcba878c,src/corelib/kernel/qmetatype.cpp,668,move constructor
+Logic,base,I349af43468b03fd8dcb16adba02669974affe154,src/plugins/platforms/ios/qiosviewcontroller.mm,541,const QString keyString seq toString
+Structure,base,I51113753e314d76aa74d201b5a7e327a6ca75f47,src/concurrent/qtconcurrentiteratekernel.h,153,DefaultValueContainer T value value value
+Logic,base,I1d53dbf7e58eae80776ff36334ebf0642ba7842f,src/corelib/kernel/qmetatype.h,488,const int ai a d ptr typeId avoid reading the atomic twice
+Logic,base,I05877de9c02857594e76b24d52e7578bdb01df69,tests/auto/network/ssl/qsslsocket/tst_qsslsocket.cpp,640,QCOMPARE QSslSocket loadBackend backendName false
+Visual,base,I0ff4ed146fe53922691d5473d0c236f31d478a04,src/corelib/io/qresource.cpp,972,int offset findOffset node jump past name
+Documentation,base,Id3f920f28553f12032a71a1a87dad29e5374dbe7,src/corelib/kernel/qmetaobject.cpp,403,data QMetaType prop QMetaType propPropertyCount QMetaType class
+Logic,base,I0ff4ed146fe53922691d5473d0c236f31d478a04,src/corelib/io/qlockfile_win.cpp,180,qWarning Could not remove our own lock file d fileName
+Logic,base,I05877de9c02857594e76b24d52e7578bdb01df69,tests/auto/network/ssl/qsslsocket/tst_qsslsocket.cpp,637,QCOMPARE QSslSocket loadBackend backendName true
+Documentation,base,I0ff4ed146fe53922691d5473d0c236f31d478a04,src/corelib/io/qresource.cpp,1202,ok data len file read char data data len
+Visual,base,I0ff4ed146fe53922691d5473d0c236f31d478a04,src/corelib/io/qresource.cpp,424,if res mappingRootSubdir path k k isEmpty
+Visual,base,I0ff4ed146fe53922691d5473d0c236f31d478a04,src/corelib/io/qresource.cpp,978,if flags Directory
+Logic,base,Ic90d8429a0eb4837971dfffd1664f776b2c0edfd,src/corelib/io/qprocess_unix.cpp,464,QString resolvedProgram resolveExecutable program
+Visual,base,I087d7d949cfd43e48e8a008621a4eeaa9d104ceb,src/corelib/global/qsimd.cpp,671,while ptr sizeof randuint sizeof ptr end
+Logic,base,I9554637f5230b1f57faaeef6b2c04cf082271edb,src/gui/image/qabstractfileiconprovider.cpp,66,static QHash QAbstractFileIconProvider IconType QIcon cache
+Logic,ironic,If8d9ee3c98e21d3428336a2eec2b704bb109c4ac,ironic/api/controllers/v1/driver.py,233,raise exception MissingArgument method
+Logic,ironic,I1d253650f6a3b98dbbe4e09c167c35526f5f940c,ironic/drivers/utils.py,423,auth token node driver internal info get auth token
+Structure,ironic,Ib5ae16bacfd79f479a9aa8fbf69edc5cfdf73ce3,ironic/drivers/modules/drac/vendor_passthru.py,280,redfish boot eject vmedia task boot device
+Documentation,ironic,I898310b515195b7065a3b1c7998ef3f29f5e8747,ironic/api/controllers/v1/utils.py,1867,don t expose non existence of port unless requester
+Logic,ironic,I3debcd1f32a2627dafd8456ec73a71fc7c402ebb,ironic/drivers/modules/redfish/utils.py,355,for node node s node task node uuid
+Logic,ironic,I8dfd16abf9da0c1a72858a45bdc1aa277351e00f,ironic/api/controllers/v1/utils.py,1627,exception PortNotFound
+Logic,ironic,I1d253650f6a3b98dbbe4e09c167c35526f5f940c,ironic/drivers/utils.py,390,url data json dumps data indent headers auth header
+Logic,ironic,Ic48bf53097635498a8461be049ee5d2a50c6fe2a,ironic/drivers/modules/ilo/common.py,331,param info driver info dictionary
+Logic,ironic,I3debcd1f32a2627dafd8456ec73a71fc7c402ebb,ironic/drivers/modules/redfish/inspect.py,165,inspect utils create ports if not exist
+Logic,ironic,Ia874e0820244c1ec47fd7b09779a4d5a8229f21d,ironic/drivers/modules/redfish/utils.py,284,deprecated pass a task instead
+Structure,ironic,I224eca4d8b331711369b17903098daa9fec27d7d,ironic/drivers/modules/image_utils.py,185,image url os path basename image file
+Structure,ironic,I1bb976ad4ad43c9801bc08ef7ed5835b5b7225e6,ironic/api/controllers/v1/deploy_template.py,44,conductor steps DEPLOYING INTERFACE PRIORITY keys
+Structure,ironic,I9f5738d7f1cc287d1b0f2a8d0ef52f12705950bf,ironic/drivers/base.py,1118,param raid Optional RAID settings in dictionary Defaults to None
+Logic,ironic,I1d253650f6a3b98dbbe4e09c167c35526f5f940c,ironic/conf/default.py,397,and web By default swift
+Documentation,ironic,Ica910d6dc0b8bc4ee84beca878b0308a0c57d0eb,ironic/drivers/modules/redfish/power.py,160,except sushy exceptions SushyError as e
+Structure,ironic,I9937fab18a50111ec56a3fd023cdb9d510a1e990,ironic/conductor/task_manager.py,193,number of times and then give up Default False
+Documentation,ironic,I8dfd16abf9da0c1a72858a45bdc1aa277351e00f,ironic/api/controllers/v1/utils.py,1607,param object type the type of an object
+Logic,ironic,I898310b515195b7065a3b1c7998ef3f29f5e8747,ironic/api/controllers/v1/utils.py,1834,owner cdict get project id
+Documentation,ironic,I2ef7c33e2e63e6d08c084b4c5dbd77a44ddd2d14,ironic/drivers/modules/pxe_base.py,350,kickstart and squashfs files in http root directory These files
+Logic,ironic,I3debcd1f32a2627dafd8456ec73a71fc7c402ebb,ironic/drivers/modules/inspector.py,259,LOG info Pre creating ports prior to inspection not supported
+Logic,ironic,I77589745a89104ddc948f084f21a60cef8265271,ironic/common/release_mappings.py,302,RELEASE MAPPING ussuri RELEASE MAPPING
+Documentation,ironic,I224eca4d8b331711369b17903098daa9fec27d7d,ironic/drivers/modules/ilo/boot.py,1022,LOG error Uefi Https boot with ramdisk
+Documentation,ironic,I6cf7169f83356c248d4df61e1d9bba157c8499db,ironic/drivers/modules/redfish/boot.py,179,https storyboard openstack org story
+Logic,ironic,Ica910d6dc0b8bc4ee84beca878b0308a0c57d0eb,ironic/drivers/modules/redfish/power.py,164,LOG info msg
+Documentation,ironic,I3706051704c260e605c765e8a45e4d4f3ec0b977,ironic/api/controllers/v1/portgroup.py,55,patch supports patching some internal info values
+Documentation,ironic,Ia169640b7084d17d26f22e457c7af512db6d21d6,ironic/drivers/modules/agent_client.py,233,NOTE TheJulia The agent sends uper case A but lower
+Documentation,ironic,I1b1a6baafd4cc4daa2fbdb82f69ded6253b1fcbf,ironic/drivers/modules/redfish/management.py,694,Detects stores and returns the hardware vendor
+Interface,nova,I41cb90963b2e5c1bd484a84bba2220415bb821d1,nova/policy.py,206,result ENFORCER authorize context is admin target context
+Documentation,nova,I9619338ad0f60253b628d96543f8ce3ac86242e3,nova/virt/libvirt/driver.py,856,unsetting DEFAULT reserved host memory mb This will be
+Documentation,nova,I0c7e32f6088a8fc1625a0655af824dee2df4a12c,nova/objects/request_spec.py,570,TODO sbauza We miss tag and pci request id information that is
+Logic,nova,I908ff07e1107304ca5926cc04d2fdc8fe0da5ed9,nova/scheduler/request_filter.py,246,request spec image
+Logic,nova,Ica180165184b319651d22fe77e076af036228860,nova/compute/manager.py,3489,self set migration status migration done
+Structure,nova,I1bdc5e4971204fbfbf0dfcd232cabf2cfe02a966,nova/scheduler/client/report.py,1695,context consumer uuid
+Logic,nova,I72a03e74fae8704546013d978e9c27a2573b219b,nova/tests/functional/libvirt/test_machine_type.py,372,unshelved rebuilding their domain configs
+Logic,nova,Ie4deb265f6093558ab86dc69f6ffab9da62ca15d,nova/virt/libvirt/driver.py,7540,socket id sockets pop
+Structure,nova,I2c7b183fcb01f3cb67cb1c8b8bea7aaf5ce424f3,nova/virt/libvirt/host.py,1397,self pci address ty Text get pci info ty Callable ty Text
+Logic,nova,I87cd4d14192b1a40cbdca6e3af0f818f2cab613e,nova/tests/functional/libvirt/test_numa_servers.py,265,cores plus the thread sibling s of each of these cores We also be
+Documentation,nova,I276d2bbce4a0390a6cfd597bb51481cc53eca918,nova/tests/functional/libvirt/test_numa_live_migration.py,397,NUMA topology of instance which is being migrated from
+Documentation,nova,I59a0746b864610b6a314078cf5661d3d2b84b1d4,nova/pci/manager.py,130,of the devices So we simply skip this device and continue
+Visual,nova,Ib89d65f93363f36de15a5a722fe8991c16ad6235,nova/tests/unit/policies/test_floating_ips.py,45,self project member context project id self project id
+Logic,nova,I29d6f4a78c0206385a550967ce244794e71cef6d,nova/compute/resource_tracker.py,578,migration status reverted
+Logic,nova,I0b81282eba8238d8b64a67e38cf9d6392de1f85c,nova/virt/libvirt/driver.py,4194,if isinstance backend imagebackend Qcow
+Visual,nova,I4c89c8ba0153ec01ff57979b9bf1cfd5b2a9da89,nova/compute/manager.py,8414,network info self network api get instance nw info ctxt instance
+Structure,nova,I59298788f26ca8f32bf3e38f3a52f72ff63fcc8b,nova/compute/api.py,1196,nova context get admin context nova compute
+Logic,nova,Ie166f3b51fddeaf916cda7c5ac34bbcdda0fd17a,nova/network/neutron.py,3532,Multi Provider Network extension is enabled in Neutron
+Structure,nova,Ic38ab840f59619bf921e5387cd7a11c88a77b2a5,nova/virt/libvirt/driver.py,5904,raise exception UEFINotSupported
+Interface,nova,I0c7e32f6088a8fc1625a0655af824dee2df4a12c,nova/objects/request_spec.py,578,network request objects NetworkRequest nr args
+Structure,nova,I9b47c966f7b110c76fb82ea5530f5a42952c21cd,nova/objects/migrate_data.py,132,sched scheduler fields StringField
+Structure,nova,I6b80021a2f90d3379c821dc8f02a72f350169eb3,nova/cmd/manage.py,2827,machine type s previously previous type s
+Visual,nova,Ie8bb5e5622bd37dfe8073cca12f77174e8e7d98c,nova/storage/rbd_utils.py,45,LOG exception Unable to import the rados module this can be ignored
+Logic,nova,I6cd206542fdd28f3ef551dcc727f4cb35a53f6a3,nova/objects/instance_numa.py,162,primitive jsonutils loads db obj
+Logic,nova,I39909ace97f62e87f326d4d822d4e4c391445765,nova/virt/machine_type_utils.py,234,for cell mapping in get cell mappings context cell uuid
+Logic,nova,I3b648c6d7ba6d4bd5d355ce890608744354ae907,nova/tests/functional/libvirt/test_pci_sriov_servers.py,341,self api post server action server a id migrate None
+Documentation,nova,I667f56612d7f63834863476694cb1f4c71a58302,nova/scheduler/request_filter.py,290,NOTE sbauza Since it will be allocated late
+Documentation,nova,I67455d4ecfafed96cb0f3f9fbe6f94808bd05909,nova/pci/stats.py,396,Dropped d devices as they are on the wrong NUMA node
+Logic,nova,I2c7b183fcb01f3cb67cb1c8b8bea7aaf5ce424f3,nova/virt/libvirt/vif.py,538,dev path self get vdpa dev path vif dev address
+Logic,nova,Id39aaaac09585ca1a754b669351c86e234b89dd9,nova/virt/hardware.py,930,configuration and we ve just hit bug
+Logic,nova,I2881d77d52bcbde9f3ac6a6ddfb4a22a9bd45c8a,nova/compute/api.py,4776,self check volume already attached context volume id
+Structure,nova,Iea5969d0bd16dc9a6f1ba950224b0115e466ce66,nova/compute/manager.py,7543,lockname detach interface s s instance uuid port id
+Logic,nova,I41cb90963b2e5c1bd484a84bba2220415bb821d1,nova/policy.py,210,result ENFORCER authorize context is admin target context
+Logic,nova,I39909ace97f62e87f326d4d822d4e4c391445765,nova/virt/machine_type_utils.py,185,ty List objects Instance
+Logic,nova,I2cdcad7226312ed81f4242c8d9ac919715524b48,nova/objects/instance_mapping.py,174,raise exception InstanceMappingNotFound uuid self instance uuid
+Logic,nova,I0b81282eba8238d8b64a67e38cf9d6392de1f85c,nova/virt/libvirt/driver.py,4202,if base image ref instance image ref
+Logic,nova,Icaad4b2375b491c8a7e87fb6f4977ae2e13e8190,nova/compute/api.py,3855,def allow cross cell resize self context instance
+Documentation,nova,I67455d4ecfafed96cb0f3f9fbe6f94808bd05909,nova/pci/stats.py,379,Dropped d devices due to mismatched PCI attributes
+Logic,nova,Ic3ae48c57e61c4e45883fbae1328a448be025953,nova/cmd/status.py,44,from nova objects import instance as instance obj noqa F
+Documentation,nova,Ia225ee86536248d2540de0d7a1cd012333e708a2,nova/tests/functional/db/test_archive.py,136,at any point between archive deleted rows runs without errors
+Structure,nova,I23bb9e539d08f5c6202909054c2dd49b6c7a7a0e,nova/compute/manager.py,2475,instance uuid instance uuid reason str e
+Visual,nova,If3e79cd71b6d0f6e535ff86b27483c137a78fee9,nova/compute/manager.py,7464,LOG warning Failed to remove resource allocation
+Structure,nova,I150e70629f6ae579ccfe0bf585c8a27df14fb51d,nova/storage/rbd_utils.py,142,logging additional context so ignore this rule
+Interface,nova,Ie99e43cb0408eae4034d410b9dd204cd39984fd1,nova/virt/libvirt/driver.py,5879,arch mach type has secure boot False
+Documentation,nova,I667f56612d7f63834863476694cb1f4c71a58302,nova/network/neutron.py,3524,if self has multi provider extension context
+Documentation,nova,I41cb90963b2e5c1bd484a84bba2220415bb821d1,nova/policy.py,204,target default target context
+Logic,nova,Idcccdf6b3a1638cf140b5c4f887abbed85c5d7dc,nova/policies/networks.py,22,BASE POLICY NAME os compute api os networks view
+Documentation,nova,I2c7b183fcb01f3cb67cb1c8b8bea7aaf5ce424f3,nova/tests/unit/virt/libvirt/test_host.py,1245,def test get vdpa nodedev by address self
+Logic,nova,I2c7b183fcb01f3cb67cb1c8b8bea7aaf5ce424f3,nova/virt/libvirt/host.py,1390,dev for dev in pci info if dev parent parent device name
+Logic,nova,I6b80021a2f90d3379c821dc8f02a72f350169eb3,nova/cmd/manage.py,2846,LOG exception Unexpected error
+Documentation,nova,Id91d2e817ef6bd21124bb840bdb098054e9753b8,nova/tests/functional/test_servers.py,7985,in the same cell the instance is and retry the migration that is now
+Structure,nova,Id94fdc6789b2bae735b0d1e9a02dce60a8f3fb40,nova/network/neutron.py,2030,nova network model VIF object instead in the future
+Logic,nova,I70c4715de05d64fabc498b02d5c757af9450fbe9,nova/tests/functional/libvirt/test_numa_live_migration.py,309,self assertTrue self get migration context self server a id
+Documentation,nova,I5b16d9ddc9cad56b367d1ad94abba95d675840b0,nova/virt/libvirt/driver.py,5942,controller x gets one by default
+Visual,nova,I2c7b183fcb01f3cb67cb1c8b8bea7aaf5ce424f3,nova/virt/libvirt/host.py,1399,param pci address pci device as a string
+Documentation,nova,Idd58298a6b01775f962b9bf0a0835f762c8e0ed2,nova/scheduler/utils.py,76,def from request spec request spec enable pinning translate True
+Documentation,nova,Iacabaea31311ae14084b55341608e16e531e6bd5,nova/api/openstack/compute/hypervisors.py,393,the given pattern If none are found then it s a error
+Logic,nova,I615ada45ffcbac081474c0a0cf005afdb8eec953,nova/tests/functional/regressions/test_bug_1893284.py,23,integrated helpers InstanceHelperMixin
+Documentation,nova,Ie166f3b51fddeaf916cda7c5ac34bbcdda0fd17a,nova/network/neutron.py,3497,Multi Provider Network extension is enabled in Neutron
+Structure,nova,I17357d85f845d4160cb7c7784772530a1e92af76,nova/virt/libvirt/driver.py,3078,raise exception InternalError msg
+Logic,nova,Id0577bceed9808b52da4acc352cf9c204f6c8861,nova/tests/functional/regressions/test_bug_1896463.py,175,new slow get mig
+Logic,nova,I67504a37b0fe2ae5da3cba2f3122d9d0e18b9481,nova/compute/manager.py,7563,context instance requested networks
+Logic,nova,I4c89c8ba0153ec01ff57979b9bf1cfd5b2a9da89,nova/compute/manager.py,8417,be cleaned up correctly e instance instance
+Logic,nova,I3cfb1edc30b0bda4671e0d2cc2a8993055dcc9ff,nova/compute/utils.py,1116,user quotas objects Quotas get all by project and user
+Logic,nova,Id0577bceed9808b52da4acc352cf9c204f6c8861,nova/tests/functional/regressions/test_bug_1896463.py,183,server OS EXT SRV ATTR host host status ACTIVE
+Logic,nova,If93fb19db766ebe1fa669d6826acedd0ae21cd20,nova/tests/functional/regressions/test_bug_1909120.py,29,super setUp
+Structure,nova,I6b80021a2f90d3379c821dc8f02a72f350169eb3,nova/cmd/manage.py,2823,rtype ptype machine type utils update machine type
+Logic,nova,Iff84fcba02a4b6d7717f4b387e392593f2983118,nova/scheduler/utils.py,275,raise exception RequiredMixedOrRealtimeCPUMask
+Structure,nova,I5cea86d96418f625b69c9790594e1ceb0b83d5b5,nova/tests/unit/policies/test_baremetal_nodes.py,19,from nova tests unit virt ironic import utils as ironic utils
+Logic,nova,If02a263055376442a116d00c18a1599b436f21d2,nova/virt/libvirt/driver.py,1609,supported on this host driver type
+Structure,nova,I2c7b183fcb01f3cb67cb1c8b8bea7aaf5ce424f3,nova/virt/libvirt/host.py,1398,finds a vdpa device path by the parent VF pci device
+Documentation,nova,I1cc304051e36eff8128c14c5d2398f6c311f0cef,nova/objects/numa.py,118,empty IOW the CPU we want to pin has sibligns pin the
+Structure,nova,I2c7b183fcb01f3cb67cb1c8b8bea7aaf5ce424f3,nova/virt/libvirt/host.py,1367,host py
+Logic ,ironic,I1d253650f6a3b98dbbe4e09c167c35526f5f940c,ironic/drivers/utils.py,390,url data json dumps data indent headers auth header
+Documentation,ironic,I3debcd1f32a2627dafd8456ec73a71fc7c402ebb,ironic/drivers/modules/redfish/inspect.py,165,inspect utils create ports if not exist
+Logic ,nova,Id94fdc6789b2bae735b0d1e9a02dce60a8f3fb40,nova/network/neutron.py,2046,constants RESOURCE REQUEST constants NUMA POLICY
+Documentation,nova,Id94fdc6789b2bae735b0d1e9a02dce60a8f3fb40,nova/network/neutron.py,2030,nova network model VIF object instead in the future
+Interface,ironic,I13b1d53578285b7171bfadb53bb2a7f69e7b53e3,ironic/drivers/modules/irmc/common.py,211,elcm get secure boot mode driver info
+Interface,ironic,I224eca4d8b331711369b17903098daa9fec27d7d,ironic/drivers/ilo.py,84,IloHardware self supported boot interfaces
+Interface,ironic,I52c1ad3e10d9fab3c2366d40af39667a299eb774,ironic/drivers/modules/agent.py,638,create nonroot volumes True
+Documentation,nova,Iabfc6fc862176120afb471c6ab0a2dbd67dfc47f,nova/pci/stats.py,242,product id and or device type specified in the alias config
+Logic ,nova,Idc035671892e4668141a93763f8f2bed7a630812,nova/cmd/manage.py,2865,return self update machine type instance machine type
+Structure,nova,Iea126857725502dc2eef6e53894d8755d0e2e7f4,nova/virt/libvirt/driver.py,2289,self vif driver unplug instance vif

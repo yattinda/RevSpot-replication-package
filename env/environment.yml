@@ -142,5 +142,3 @@ dependencies:
     - nbclassic==0.3.1
     - sniffio==1.2.0
     - websocket-client==1.0.1
-    - xgboost==1.4.2
-prefix: /Users/yhon0025/miniforge3

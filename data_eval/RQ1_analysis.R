@@ -1,31 +1,78 @@
-library(ScottKnottESD)
+library(tidyverse)
 library(ggplot2)
-library(dplyr)
+library(gridExtra)
+library("ggpubr")
+library(patchwork)
 
-# RQ1.1
-# load data
-rq1file <- read.csv("csv_commented_fileLevel.csv")
-rq1file <- rq1file[rq1file$Measure %in% c("AUC","Precision","Recall","F1 measure"),]
-rq1file$Technique <- factor(rq1file$Technique, levels = c("RF", "DT","LG","Random Guessing"))
-levels(rq1file$Technique) <- c("RF","DT","LR","Random")
-rq1file$Datasets <- factor(rq1file$Datasets, levels=c("nova","ironic","base"))
-levels(rq1file$Datasets) <- c("OpenstackNova","OpenstackIronic","QtBase")
-rq1file <- rq1file %>% mutate_if(is.numeric, round, digits = 2)
-ggplot(data=rq1file, aes(x=Technique, y=Value, fill=Technique)) + facet_grid( Datasets ~ Measure) + theme_bw() + 
-  geom_bar(color="black",stat="identity",position = 'dodge') + scale_fill_brewer(name = "", labels = c("...."), palette = "Blues", direction=-1) + theme(legend.position = "none",legend.title = element_blank(),axis.title=element_blank()) + geom_col() +
-  geom_text(aes(label = Value), colour = "black",size = 3,vjust = 1.3, hjust = 0.5) + theme(axis.text.x = element_text(angle = 45, vjust = 1, hjust=1)) 
-ggsave("./figures/RQ1.1.pdf",width=5,height=4)
+raw = read.csv(paste0("motivation.csv"),stringsAsFactors = F)
+raw$dataset <- factor(raw$dataset, levels = c('OpenstackNova','OpenstackIronic', 'QtBase'), ordered = TRUE)
 
-# RQ1.2
-# load data
-rq2file <- read.csv("csv_revised_fileLevel.csv")
-rq2file <- rq2file[rq2file$Measure %in% c("AUC","Precision","Recall","F1 measure"),]
-rq2file$Technique <- factor(rq2file$Technique, levels = c("RF", "LG","NB","DT","Random Guessing"))
-levels(rq2file$Technique) <- c("RF", "LR","NB","DT","Random")
-rq2file$Datasets <- factor(rq2file$Datasets, levels=c("nova","ironic","base"))
-levels(rq2file$Datasets) <- c("OpenstackNova","OpenstackIronic","QtBase")
-rq2file <- rq2file %>% mutate_if(is.numeric, round, digits = 2)
-ggplot(data=rq2file, aes(x=Technique, y=Value, fill=Technique)) + facet_grid( Datasets ~ Measure) + theme_bw() + 
-  geom_bar(color="black",stat="identity",position = 'dodge') + scale_fill_brewer(name = "", labels = c("...."), palette = "Blues", direction=-1) + theme(legend.position = "none",legend.title = element_blank(),axis.title=element_blank()) + geom_col() +
-  geom_text(aes(label = Value), colour = "black",size = 3,vjust = 1.3, hjust = 0.5) + theme(axis.text.x = element_text(angle = 45, vjust = 1, hjust=1)) 
-ggsave("./figures/RQ1.2.pdf",width=5,height=4)
+
+initial_feedback_time <- raw %>% select(c("dataset","initial_feedback_time"))
+percentage_time_cost <- raw %>% select(c("dataset","percentage_time_cost"))
+code_size <- raw %>% select(c("dataset","changed_line"))
+time_size_relation <-  raw %>% select(c("dataset","initial_feedback_time","changed_line"))
+
+nova_size <- code_size %>% filter(dataset=="OpenstackNova")
+ironic_size <- code_size %>% filter(dataset=="OpenstackIronic")
+base_size <- code_size %>% filter(dataset=="QtBase")
+
+nova_per <- percentage_time_cost %>% filter(dataset=="OpenstackNova")
+ironic_per <- percentage_time_cost %>% filter(dataset=="OpenstackIronic")
+base_per <- percentage_time_cost %>% filter(dataset=="QtBase")
+
+g1 <- percentage_time_cost %>% ggplot() + geom_boxplot(aes(x=dataset, y = percentage_time_cost, fill=dataset),show.legend = FALSE)  + scale_y_continuous(breaks = 0:5*0.2, labels = scales::percent)+ scale_fill_brewer(palette = "Blues", direction=-1) + theme_bw() + labs(x="")+ labs(y="The Proportion of the Waiting Hours") + theme(axis.text.x = element_text(angle = 45, vjust = 1, hjust=1)) 
+
+g2 <- initial_feedback_time %>% ggplot() + geom_boxplot(aes(x=dataset, y = initial_feedback_time, fill=dataset), show.legend = FALSE) + coord_cartesian(ylim= c(0,500))+ scale_fill_brewer(palette = "Blues", direction=-1) + theme_bw() + labs(x="") + labs(y="Waiting Hours to Receive the First Comment") + theme(axis.text.x = element_text(angle = 45, vjust = 1, hjust=1)) 
+
+g3 <- code_size %>% ggplot() + geom_boxplot(aes(x=dataset, y = changed_line, fill=dataset), show.legend = FALSE) + coord_cartesian(ylim= c(0,500))+ scale_fill_brewer(palette = "Blues", direction=-1) + theme_bw() + labs(x="") + labs(y="Patch Size") + theme(axis.text.x = element_text(angle = 45, vjust = 1, hjust=1)) 
+
+nova_rel <- time_size_relation %>% filter(dataset=="OpenstackNova")
+ironic_rel <- time_size_relation %>% filter(dataset=="OpenstackIronic")
+base_rel <- time_size_relation %>% filter(dataset=="QtBase")
+
+nova_rel <- nova_rel %>% mutate(isLarge = case_when(changed_line >= median(nova_size$changed_line) ~ "Large Patches", changed_line < median(nova_size$changed_line) ~ "Small Patches"))
+ironic_rel <- ironic_rel %>% mutate(isLarge = case_when(changed_line >= median(ironic_size$changed_line) ~ "Large Patches", changed_line < median(ironic_size$changed_line) ~ "Small Patches"))
+base_rel <- base_rel %>% mutate(isLarge = case_when(changed_line >= median(base_size$changed_line) ~ "Large Patches", changed_line < median(base_size$changed_line) ~ "Small Patches"))
+
+nova_rel_l <- nova_rel %>% filter(isLarge=="Large Patches") %>% ungroup() %>% select(c(initial_feedback_time))
+nova_rel_s <- nova_rel %>% filter(isLarge=="Small Patches") %>% ungroup() %>% select(c(initial_feedback_time))
+apply(nova_rel_l,2,median)
+apply(nova_rel_s,2,median)
+
+
+ironic_rel_l <- ironic_rel %>% filter(isLarge=="Large Patches") %>% ungroup() %>% select(c(initial_feedback_time))
+ironic_rel_s <- ironic_rel %>% filter(isLarge=="Small Patches") %>% ungroup() %>% select(c(initial_feedback_time))
+apply(ironic_rel_l,2,median)
+apply(ironic_rel_s,2,median)
+
+
+base_rel_l <- base_rel %>% filter(isLarge=="Large Patches") %>% ungroup() %>% select(c(initial_feedback_time))
+base_rel_s <- base_rel %>% filter(isLarge=="Small Patches") %>% ungroup() %>% select(c(initial_feedback_time))
+apply(base_rel_l,2,median)
+apply(base_rel_s,2,median)
+
+
+g4_1 <- nova_rel %>% ggplot() + geom_boxplot(aes(x=isLarge, y = initial_feedback_time, fill=isLarge), show.legend = FALSE) + coord_cartesian(ylim= c(0,600))+ scale_fill_brewer(palette = "Blues", direction=-1) + theme_bw() + labs(x="") + labs(y="Waiting Hours") + facet_grid(~dataset) + facet_wrap(~dataset,strip.position = "right") + scale_x_discrete(limits=c('Large Patches','Small Patches'))
+g4_2 <- ironic_rel %>% ggplot() + geom_boxplot(aes(x=isLarge, y = initial_feedback_time, fill=isLarge), show.legend = FALSE) + coord_cartesian(ylim= c(0,600))+ scale_fill_brewer(palette = "Blues", direction=-1) + theme_bw() + labs(x="") + labs(y="Waiting Hours") + facet_grid(~dataset) + facet_wrap(~dataset,strip.position = "right") + scale_x_discrete(limits=c('Large Patches','Small Patches'))
+g4_3 <- base_rel %>% ggplot() + geom_boxplot(aes(x=isLarge, y = initial_feedback_time, fill=isLarge), show.legend = FALSE) + coord_cartesian(ylim= c(0,150))+ scale_fill_brewer(palette = "Blues", direction=-1) + theme_bw() + labs(x="") + labs(y="Waiting Hours")+ facet_grid(~dataset) + facet_wrap(~dataset,strip.position = "right") + scale_x_discrete(limits=c('Large Patches','Small Patches'))
+
+
+nova_time <- initial_feedback_time %>% filter(dataset=="OpenstackNova")
+ironic_time <- initial_feedback_time %>% filter(dataset=="OpenstackIronic")
+base_time <- initial_feedback_time %>% filter(dataset=="QtBase")
+
+nova_size <- code_size %>% filter(dataset=="OpenstackNova")
+ironic_size <- code_size %>% filter(dataset=="OpenstackIronic")
+base_size <- code_size %>% filter(dataset=="QtBase")
+
+# The Welch's t-test
+t.test(nova_rel_l,nova_rel_s)
+t.test(ironic_rel_l,ironic_rel_s)
+t.test(base_rel_l,base_rel_s)
+
+pdf("./figures/motivation.pdf", width=6, height = 6)
+g2+g1 | g4_1/g4_2/g4_3
+dev.off()
+
+

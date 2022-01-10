@@ -1,0 +1,201 @@
+,,,,,
+,,,,,
+Label,dataset,changeId,fileName,lineNumber,token
+,,,,,
+Visual,base,I0ff4ed146fe53922691d5473d0c236f31d478a04,src/corelib/io/qresource.cpp,888,if country locale country language locale language
+Documentation,base,I9554637f5230b1f57faaeef6b2c04cf082271edb,src/gui/image/qabstractfileiconprovider.cpp,90,break
+Documentation,base,Ibd31b9c482962b1618daf04fef4256aa52d589e3,src/corelib/kernel/qproperty.cpp,1177,inmodule QtCore
+Visual,base,I03d11a3f915a03bd57f79b8db2023ed4720e2ef8,src/corelib/text/qregularexpression.cpp,1444,if d
+Visual,base,I0ff4ed146fe53922691d5473d0c236f31d478a04,src/corelib/io/qresource.cpp,852,else if h sub node hash
+Visual,base,I4cf81c8283262cbf59ee3fb7064a59837332ced7,src/gui/kernel/qevent.h,453,quint m count
+Visual,base,I0ff4ed146fe53922691d5473d0c236f31d478a04,src/corelib/io/qresource.cpp,830,now iterate up the tree
+Structure,base,I7b9b97ae9b32412abdc6fffd164523eeae49cdfe,src/corelib/serialization/qcborstreamreader.cpp,1539,if toRead MaxByteArraySize
+Visual,base,I0ff4ed146fe53922691d5473d0c236f31d478a04,src/corelib/io/qresource.cpp,1153,delete mappingBuffer
+Visual,base,I0ff4ed146fe53922691d5473d0c236f31d478a04,src/corelib/io/qresource.cpp,429,if node
+Logic,base,I9dba1b373250cea4d0c806997290a7afcdc900d7,src/gui/util/qktxhandler.cpp,261,char QKtxHandler decode char val const
+Visual,base,I0ff4ed146fe53922691d5473d0c236f31d478a04,src/corelib/io/qresource.cpp,1133,class QDynamicFileResourceRoot public QDynamicBufferResourceRoot
+Visual,base,I0ff4ed146fe53922691d5473d0c236f31d478a04,src/corelib/io/qresource.cpp,1471,memcpy data d uncompressed constData d offset len
+Visual,base,Iae026378831799dc676e1aba7d5bd6a0d1c01e7f,src/plugins/platforms/windows/qwindowsmime.cpp,322,if bi bVHeight
+Visual,base,I0ff4ed146fe53922691d5473d0c236f31d478a04,src/corelib/io/qresource.cpp,1061,run time resource creation
+Logic,base,Ic35dfd33038cc736245904b78fe4383a5a11b580,tests/auto/corelib/text/qcollator/tst_qcollator.cpp,283,for MACOS C locale is not supported always providing empty string for sortKey
+Visual,base,I0ff4ed146fe53922691d5473d0c236f31d478a04,src/corelib/io/qresource.cpp,1206,delete data
+Visual,base,I0ff4ed146fe53922691d5473d0c236f31d478a04,src/corelib/io/qresource.cpp,384,if fileName QLatinString
+Structure,base,I06b4f54e300541033a9a18339c97338717a06da0,src/corelib/text/qregularexpression.cpp,1615,QRegularExpressionPrivate d ptr d d data new QRegularExpressionPrivate
+Logic,base,I03d11a3f915a03bd57f79b8db2023ed4720e2ef8,src/corelib/text/qregularexpression.cpp,1744,d re d d pattern re d pattern
+Structure,base,I0ff4ed146fe53922691d5473d0c236f31d478a04,src/corelib/io/qresource.cpp,1147,munmap char unmapPointer unmapLength
+Visual,base,I0ff4ed146fe53922691d5473d0c236f31d478a04,src/corelib/io/qresource.cpp,936,if node
+Logic,base,I7f1ba8036f43413d3c805f4b419ae79e037343fb,qmake/qmakelibraryinfo.cpp,166,else if unsigned loc sizeof qtConfEntries sizeof qtConfEntries
+Documentation,base,I8409d81fd11fb46e6ab4465b4937a7680a8c2447,src/network/ssl/qtlsbackend.cpp,58,class BackEndFactoryCollection
+Logic,base,I0f3cbb0500695673fc4087af5d4b96b416e3e1ce,src/corelib/thread/qfuture_impl.h,553,f d setContinuation continuation
+Interface,base,I6a46c2e817f8dc3f580774aba2db8bfb01f5a403,qmake/qmakelibraryinfo.cpp,167,return QLibraryInfo PrefixPath
+Logic,base,Ic90d8429a0eb4837971dfffd1664f8f63753440a,src/corelib/io/qprocess_unix.cpp,504,const CharPointerList envp environment d constData
+Documentation,base,I10a6f756c09908f199ac9c61e28b49625af10105,examples/network/http/httpwindow.cpp,137,HttpWindow HttpWindow default
+Documentation,base,I9261084e545c24e5473234220d2a3f2cd26c2b7f,src/corelib/tools/qlist.h,752,from a container to the same container This is a critical step for
+Visual,base,I0ff4ed146fe53922691d5473d0c236f31d478a04,src/corelib/io/qresource.cpp,860,now do the harder compares
+Visual,base,I0ff4ed146fe53922691d5473d0c236f31d478a04,src/corelib/io/qresource.cpp,983,for int i child off i child off child count i
+Documentation,base,I7b9b97ae9b32412abdc6fffd164523eeae49cdfe,src/corelib/serialization/qcborstreamreader.cpp,1484,the case of direct memory no QIODevice but
+Visual,base,I0ff4ed146fe53922691d5473d0c236f31d478a04,src/corelib/io/qresource.cpp,1526,if d resource isValid
+Logic,base,I05877de9c02857594e76b24d52e7578bdb01df69,src/network/ssl/qsslsocket.cpp,1617,return QSslSocketPrivate supportedProtocols backendName
+Visual,base,I0ff4ed146fe53922691d5473d0c236f31d478a04,src/corelib/io/qresource.cpp,810,if root endsWith QLatinChar
+Visual,base,I0ff4ed146fe53922691d5473d0c236f31d478a04,src/corelib/io/qresource.cpp,309,QList QResourceRoot related
+Visual,base,I0ff4ed146fe53922691d5473d0c236f31d478a04,src/corelib/io/qresource.cpp,1370,resource engine
+Visual,base,I087d7d949cfd43e48e8a008621a4eeaa9d104ceb,src/corelib/global/qsimd.cpp,448,data static cast char realloc data newalloc
+Visual,base,Iedc084b67bb496b2ef13001a0e6aa46d4574eb57,src/plugins/platforms/cocoa/qcocoafiledialoghelper.mm,313,for int i i filters size i
+Logic,base,Iecedb31b6993f6771b4b7a5d2708995365b8515f,tests/auto/corelib/animation/qsequentialanimationgroup/tst_qsequentialanimationgroup.cpp,1479,delete anim
+Visual,base,I0ff4ed146fe53922691d5473d0c236f31d478a04,src/corelib/io/qresource.cpp,929,if node
+Visual,base,I0ff4ed146fe53922691d5473d0c236f31d478a04,src/corelib/io/qresource.cpp,845,do the binary search for the hash
+Visual,base,I0ff4ed146fe53922691d5473d0c236f31d478a04,src/corelib/io/qresource.cpp,785,if node root
+Logic,base,I051cdeb1fe03a7ef16e333a483bb68e2fada3c25,src/corelib/tools/qsharedpointer_impl.h,639,bool operator const QWeakPointer X o const noexcept
+Structure,base,I949acf79c8ce321811ee81cf707c1ae0eccb547d,src/tools/qtpaths/qtpaths.cpp,243,QCoreApplication translate qtpaths Specifies query output format
+Structure,base,I39bc2eaa61f799aaddc43ab6c6e782e081f31d0c,src/corelib/kernel/qproperty.cpp,115,QScopeGuard guard eagerlyUpdating false
+Documentation,base,Ic580e6316e67edbc840aa0c60d98c7aaabaf1af6,src/corelib/io/qfileinfo.cpp,1626,since
+Visual,base,Ibe796c398a8e5488b7203abb07aa54740744f1ab,src/corelib/tools/qvarlengtharray.h,448,T newPtr reinterpret cast T malloc aalloc sizeof T
+Visual,base,I0ff4ed146fe53922691d5473d0c236f31d478a04,src/corelib/io/qresource.cpp,1289,if root ref deref
+Logic,base,I9554637f5230b1f57faaeef6b2c04cf082271edb,src/gui/image/qabstractfileiconprovider.cpp,100,icon addPixmap theme standardPixmap sp size
+Structure,base,I051cdeb1fe03a7ef16e333a483bb68e2fada3c25,src/corelib/tools/qsharedpointer_impl.h,655,friend bool operator const QSharedPointer X p const QWeakPointer p noexcept
+Logic,base,I66443c3021d6ba98639a214c3e768be97d2cf14b,src/corelib/io/qwindowspipereader.cpp,144,WaitForThreadpoolWaitCallbacks waitObject FALSE
+Logic,base,I06e563df417692d3b6514a52a313a0ff55b0b52e,src/corelib/time/qtimezoneprivate_tz.cpp,97,while ascii isspace text back TODO QBAV needs a trimmed method
+Structure,base,Iae026378831799dc676e1aba7d5bd6a0d1c01e7f,src/plugins/platforms/windows/qwindowsmime.cpp,315,delete content
+Structure,base,I1c3c5ce2a6f4f57f92ab503a734c8244fe7cd7c5,src/corelib/text/qstring.cpp,9431,Returns c true if string a s is lexically equal to string a s
+Structure,base,Ic7f9ca590a8ea8a9696b84f35bad074780794461,tests/auto/corelib/thread/qfuture/tst_qfuture.cpp,3292,const int val
+Logic,base,I5a48b63195d28025ae8c5de28bc6d6178dad03db,examples/qtconcurrent/imagescaling/imagescaling.cpp,108,return
+Visual,base,I0ff4ed146fe53922691d5473d0c236f31d478a04,src/corelib/io/qresource.cpp,1256,if root registerSelf rccFilename
+Documentation,base,I2fb1ba7254ecfd502a22c706404f92dd1bc3a584,src/corelib/kernel/qwineventnotifier.cpp,283,Wait for outstanding callback to complete
+Logic,base,I1d53dbf7e58eae80776ff36334ebf0642ba7842f,src/corelib/kernel/qmetatype.h,486,return false one type is undefined the other is defined
+Structure,base,I051cdeb1fe03a7ef16e333a483bb68e2fada3c25,src/corelib/tools/qsharedpointer_impl.h,440,define DECLARE COMPARE SET T A T A
+Documentation,base,Ic0a52e12e4c4d5093f2976d668a215b2980e192d,qmake/property.cpp,153,int QMakeProperty queryProperty const QStringList optionProperties
+Structure,base,I9556cd384ef99a623b5b8723b65f16eb9e1df767,src/corelib/tools/qarraydataops.h,1029,else
+Logic,base,I4ee3c59c435fc34a9f4dacd3ff0e3cfb44251e23,src/network/ssl/qtlsbackend_p.h,114,using Cipher QSslKeyPrivate Cipher
+Documentation,base,I7b9b97ae9b32412abdc6fffd164523eeae49cdfe,src/corelib/serialization/qcborstreamreader.cpp,1524,qsizetype left bytes left unread after we re done
+Visual,base,I0ff4ed146fe53922691d5473d0c236f31d478a04,src/corelib/io/qresource.cpp,1644,const MapExtensionOption options const MapExtensionOption option
+Documentation,base,I05877de9c02857594e76b24d52e7578bdb01df69,src/network/ssl/qsslsocket_mac.cpp,1577,return false
+Visual,base,I0ff4ed146fe53922691d5473d0c236f31d478a04,src/corelib/io/qresource.cpp,919,if found
+Visual,base,I0ff4ed146fe53922691d5473d0c236f31d478a04,src/corelib/io/qresource.cpp,348,if node
+Visual,base,Ief7de1b709387d798138387bb735f4b48cf2928d,src/plugins/platforms/android/qandroidplatformscreen.cpp,407,screenImage bytesPerLine screenImage height
+Visual,base,I0ff4ed146fe53922691d5473d0c236f31d478a04,src/corelib/io/qlockfile_win.cpp,170,if d isLocked
+Structure,base,I7b9b97ae9b32412abdc6fffd164523eeae49cdfe,src/corelib/serialization/qcborstreamreader.cpp,1542,handleError CborErrorOutOfMemory
+Visual,base,I0ff4ed146fe53922691d5473d0c236f31d478a04,src/corelib/io/qresource.cpp,862,if hash sub node h
+Structure,base,I06b4f54e300541033a9a18339c97338717a06da0,src/corelib/text/qregularexpression.cpp,1627,delete d ptr
+Logic,base,Iae026378831799dc676e1aba7d5bd6a0d1c01e7f,src/plugins/platforms/windows/qwindowsmime.cpp,309,auto imageSize h w sizeof char
+Structure,base,I51113753e314d76aa74d201b5a7e327a6ca75f47,src/concurrent/qtconcurrentiteratekernel.h,96,ResultReporter ThreadEngine T threadEngine T defaultValue
+Interface,base,I66443c3021d6ba98639a214c3e768be97d2cf14b,src/corelib/io/qwindowspipereader.cpp,348,SetEvent pipeReader syncHandle
+Documentation,base,I05877de9c02857594e76b24d52e7578bdb01df69,src/network/ssl/qsslsocket.cpp,1577,Returns true if a backend with a backendName was loaded
+Visual,base,I0ff4ed146fe53922691d5473d0c236f31d478a04,src/corelib/io/qresource.cpp,823,if path QLatinString
+Logic,base,Ic90d8429a0eb4837971dfffd1664f8f63753440a,src/corelib/io/qprocess_unix.cpp,942,const CharPointerList envp environment d data
+Logic,ironic,Ic48bf53097635498a8461be049ee5d2a50c6fe2a,ironic/drivers/modules/ilo/common.py,60,ca file CA certificate file to validate iLO Optional
+Structure,ironic,I59f89d1907cd532325399b0a06edb96575d7eeec,ironic/api/controllers/v1/node.py,171,type string boolean null
+Structure,ironic,Iefb7f882c97e33a176962e4e907163d9e4809445,ironic/drivers/modules/drac/raid.py,1167,def wait till realtime ready task max retry count
+Logic,ironic,I39fa73ac9a62d30a3eaa00c75129ac1e00270652,ironic/api/controllers/v1/utils.py,323,for key in set to sanitize keys
+Structure,ironic,Idc86d7b78854e0618f62c7e4c1a88670dc4561b0,ironic/drivers/modules/ilo/common.py,946,are assumed to have been exported
+Logic,ironic,I224eca4d8b331711369b17903098daa9fec27d7d,ironic/drivers/modules/ilo/boot.py,1104,mode rescue
+Documentation,ironic,I1d253650f6a3b98dbbe4e09c167c35526f5f940c,ironic/drivers/utils.py,407,response requests get url headers auth header
+Interface,ironic,I1d253650f6a3b98dbbe4e09c167c35526f5f940c,ironic/conf/default.py,400,set empty
+Documentation,ironic,Ib5ae16bacfd79f479a9aa8fbf69edc5cfdf73ce3,ironic/drivers/modules/drac/vendor_passthru.py,290,Insert bootable ISO image into virtual CD or DVD
+Structure,ironic,If713895f05f08a9827c4c085108abb3e388b2a2e,ironic/drivers/modules/drac/inspect.py,207,return gpu cnt
+Structure,ironic,I39fa73ac9a62d30a3eaa00c75129ac1e00270652,ironic/api/controllers/v1/utils.py,130,and obj created at isoformat or None
+Documentation,ironic,I59f89d1907cd532325399b0a06edb96575d7eeec,ironic/api/controllers/v1/node.py,1283,with support for the ssh power driver
+Structure,ironic,I68c5f2bae76ca313ba77285747dc6b1bc8b623b9,ironic/api/controllers/v1/portgroup.py,378,owner lessee conceal node False
+Documentation,ironic,Ib5ae16bacfd79f479a9aa8fbf69edc5cfdf73ce3,ironic/drivers/modules/drac/vendor_passthru.py,286,boot iso href URL to bootable ISO image
+Visual,ironic,I224eca4d8b331711369b17903098daa9fec27d7d,ironic/drivers/modules/ilo/common.py,918,error ilo exception
+Logic,ironic,I59f89d1907cd532325399b0a06edb96575d7eeec,ironic/api/controllers/v1/node.py,840,configdrive args types type None dict str
+Documentation,ironic,I2960d0f808949582dc964f4f5688a462d397de9e,ironic/common/policy.py,66,PROJECT READER role reader and project id project id s
+Structure,ironic,I224eca4d8b331711369b17903098daa9fec27d7d,ironic/drivers/modules/ilo/boot.py,928,deploy info update node instance info copy
+Documentation,ironic,Ia874e0820244c1ec47fd7b09779a4d5a8229f21d,ironic/drivers/modules/redfish/utils.py,269,The system is cached on the task object
+Structure,ironic,I0594e84905957873de17275ee396531b816cd468,ironic/api/controllers/v1/port.py,69,internal info
+Structure,ironic,I39fa73ac9a62d30a3eaa00c75129ac1e00270652,ironic/api/controllers/v1/utils.py,150,to dict field getattr obj field or False
+Structure,ironic,Idc86d7b78854e0618f62c7e4c1a88670dc4561b0,ironic/drivers/modules/ilo/common.py,979,def clear certificates task cert file list None
+Visual,ironic,I0594e84905957873de17275ee396531b816cd468,ironic/api/controllers/v1/port.py,550,if portgroup and port get pxe enabled or vif
+Interface,ironic,Ib5ae16bacfd79f479a9aa8fbf69edc5cfdf73ce3,ironic/drivers/modules/drac/vendor_passthru.py,268,boot device the boot device to eject
+Documentation,ironic,I11c93de2ba8c6c952394856ab828989346377766,ironic/drivers/modules/inspector.py,206,lookup lookup
+Documentation,ironic,I39fa73ac9a62d30a3eaa00c75129ac1e00270652,ironic/api/controllers/v1/utils.py,97,param created at
+Structure,ironic,I224eca4d8b331711369b17903098daa9fec27d7d,ironic/drivers/modules/ilo/common.py,893,error ilo exception
+Documentation,nova,I6b80021a2f90d3379c821dc8f02a72f350169eb3,nova/virt/machine_type_utils.py,99,Check that we are not switching between types or between an alias and
+Interface,nova,I41cb90963b2e5c1bd484a84bba2220415bb821d1,nova/policy.py,209,init
+Structure,nova,Iafccbb52cba0c45b5159984d6560b822d9405d5f,nova/db/sqlalchemy/api_migrations/migrate_repo/versions/052_queens.py,265,resource providers parent provider id idx parent provider id
+Structure,nova,I72a03e74fae8704546013d978e9c27a2573b219b,nova/tests/functional/libvirt/test_machine_type.py,379,server with server without self create servers
+Structure,nova,I7c90961802485edda6d99caf10329b73362ef61e,nova/conductor/manager.py,845,local reqspec get request group mapping
+Documentation,nova,Ie092628ac71eb87c9dfa7220255a2953ada9e04d,nova/tests/functional/libvirt/test_numa_servers.py,636,server self wait for state change server VERIFY RESIZE
+Structure,nova,Id0577bceed9808b52da4acc352cf9c204f6c8861,nova/tests/functional/regressions/test_bug_1896463.py,65,self scheduler service self start service scheduler
+Logic,nova,Ie653e5ec69d16ae469f1f8171fee85aea754edff,nova/db/sqlalchemy/api.py,4156,metadata conn fk table fk column fk records inserts deletes
+Structure,nova,I615ada45ffcbac081474c0a0cf005afdb8eec953,nova/tests/functional/regressions/test_bug_1893284.py,61,self start service compute
+Visual,nova,Id4684093e8bdf3b61667490443e3d2f6ed65f4b3,nova/tests/functional/test_servers.py,5914,side effect fake get service
+Logic,nova,Iee44ea525deb0b43ae43df3ba08c95ea8a4e317c,nova/compute/manager.py,250,self events ty Optional ty Dict str InstanceEvents
+Documentation,nova,Id91d2e817ef6bd21124bb840bdb098054e9753b8,nova/tests/functional/test_servers.py,8014,if port id qos sriov port id
+Structure,nova,I470a016d35afe69809321bd67359f466c3feb90a,nova/tests/functional/regressions/test_bug_1888395.py,60,self neutron list extensions self list extensions
+Interface,nova,I7fc1ba2d2cbdb3f46f3649b1279b0c1a40457647,nova/virt/libvirt/driver.py,353,def cleanup waiters self instance uuid
+Documentation,nova,I8249c572c6f727ef4ca434843106b9b57c47e585,nova/tests/functional/regressions/test_bug_1914777.py,110,br objects BuildRequest get by instance uuid self ctxt server id
+Documentation,nova,Iee2c5521f41a2d061d21d4556cfbf7a898ad96c9,nova/tests/functional/regressions/test_bug_1879878.py,28,Reproducer for bug same cell
+Documentation,nova,Id91d2e817ef6bd21124bb840bdb098054e9753b8,nova/tests/functional/test_servers.py,8035,the failure is incomplete
+Interface,nova,I667f56612d7f63834863476694cb1f4c71a58302,nova/scheduler/request_filter.py,305,for requested network in requested networks or
+Structure,nova,Idc035671892e4668141a93763f8f2bed7a630812,nova/cmd/manage.py,2829,else
+Structure,nova,I615ada45ffcbac081474c0a0cf005afdb8eec953,nova/tests/functional/regressions/test_bug_1893284.py,47,self useFixture func fixtures PlacementFixture
+Structure,nova,I39909ace97f62e87f326d4d822d4e4c391445765,nova/virt/machine_type_utils.py,198,return instances without
+Interface,nova,I7fc1ba2d2cbdb3f46f3649b1279b0c1a40457647,nova/virt/libvirt/driver.py,302,def wait self token str timeout int
+Documentation,nova,I642b1e3ed6de2be4dcc19fe214f84095d2e1d31a,nova/config.py,40,without consideration of the version of oslo messaging used
+Visual,nova,Id4684093e8bdf3b61667490443e3d2f6ed65f4b3,nova/compute/manager.py,7548,self
+Logic,nova,I7f3cbc57a374b2f271018a2f6ef33ef579798db8,nova/compute/api.py,3970,search opts
+Structure,nova,Ifea9a15fb01c0b25e9973024f4f61faecc56e1cd,nova/tests/functional/regressions/test_bug_1879878.py,50,def assertUsage self hostname usage
+Structure,nova,Ib89d65f93363f36de15a5a722fe8991c16ad6235,nova/tests/unit/policies/test_floating_ips.py,125,address
+Documentation,nova,I515e484ade6c6455f82a3067940a418a0d7d965a,nova/api/openstack/compute/hypervisors.py,421,wsgi Controller api version
+Logic,nova,I6c80e6f91776393ec01309f9c2be84329a5146b6,nova/compute/api.py,4448,except oslo exceptions MessagingTimeout
+Logic,nova,Id0577bceed9808b52da4acc352cf9c204f6c8861,nova/tests/functional/regressions/test_bug_1896463.py,59,if PciPassthroughFilter not in CONF filter scheduler enabled filters
+Structure,nova,I043880cb81b02488d13c3387d696142545c13395,nova/virt/libvirt/driver.py,7287,vdpa devs ty List libvirt virNodeDevice
+Structure,nova,Iee44ea525deb0b43ae43df3ba08c95ea8a4e317c,nova/compute/manager.py,331,mypy can t identify the none check in pop event
+Logic,nova,I276d2bbce4a0390a6cfd597bb51481cc53eca918,nova/tests/functional/libvirt/test_numa_live_migration.py,399,self assert host consumed cpus host a
+Structure,nova,I470a016d35afe69809321bd67359f466c3feb90a,nova/tests/functional/regressions/test_bug_1888395.py,89,self network api supports port binding extension ctxt
+Logic,nova,Iee44ea525deb0b43ae43df3ba08c95ea8a4e317c,nova/compute/manager.py,477,early events set
+Logic,nova,Ic38ab840f59619bf921e5387cd7a11c88a77b2a5,nova/virt/libvirt/driver.py,5917,elif os secure boot optional
+Logic,nova,I043880cb81b02488d13c3387d696142545c13395,nova/virt/libvirt/driver.py,7362,dev path cfgdev vdpa capability dev path
+Logic,nova,I276d2bbce4a0390a6cfd597bb51481cc53eca918,nova/tests/functional/libvirt/test_numa_live_migration.py,392,self assert host consumed cpus host b
+Documentation,nova,I7f3cbc57a374b2f271018a2f6ef33ef579798db8,nova/compute/api.py,5293,so this proably works but block evac with vdpa until tested
+Documentation,nova,If795b603d812917c9257ee5166a979c1fd6687f3,nova/tests/functional/regressions/test_bug_1899649.py,55,networks none
+Documentation,nova,I667f56612d7f63834863476694cb1f4c71a58302,nova/scheduler/request_filter.py,277,matches the desired AZ of the user s request
+Structure,nova,Idd58298a6b01775f962b9bf0a0835f762c8e0ed2,nova/scheduler/utils.py,123,self ResourceRequest
+Visual,nova,I6b80021a2f90d3379c821dc8f02a72f350169eb3,nova/virt/machine_type_utils.py,147,context instance uuid
+Logic,nova,I7f3cbc57a374b2f271018a2f6ef33ef579798db8,nova/compute/api.py,5070,elif port get binding vnic type normal vdpa
+Logic,nova,I2ef7c5bef87bd64c087f3b136c2faac9a3865f10,nova/virt/libvirt/driver.py,708,flag flag strip
+Logic,nova,I8249c572c6f727ef4ca434843106b9b57c47e585,nova/tests/functional/regressions/test_bug_1914777.py,67,server self create server expected state BUILD
+Structure,nova,Iafccbb52cba0c45b5159984d6560b822d9405d5f,nova/db/sqlalchemy/api_migrations/migrate_repo/versions/052_queens.py,147,Column spec MediumText nullable False
+Logic,nova,If1a45886adfc6448a626a54449ff66f400879b83,nova/tests/functional/compute/test_live_migration.py,174,self wait for migration status server error
+Documentation,nova,I0872ee16e9fc49c988fe588f029ab71f429790f5,nova/tests/unit/virt/libvirt/storage/test_rbd.py,421,new mock Mock
+Visual,nova,I2c7b183fcb01f3cb67cb1c8b8bea7aaf5ce424f3,nova/tests/unit/virt/libvirt/test_host.py,1181,device
+Logic,nova,I91dd7993395f693c7d26c1caa44fa365f5cbec12,nova/virt/libvirt/host.py,1387,LOG debug f vdpa devs vdpa devs npci info pci info
+Logic,nova,Ibf8dca4bd57b3bddb39955b53cc03564506f5754,nova/virt/libvirt/host.py,1181,def list all nodedevs self flags int ty List str
+Logic,nova,I59298788f26ca8f32bf3e38f3a52f72ff63fcc8b,nova/compute/api.py,3860,resizing an instance with mixed policy
+Documentation,nova,Id4684093e8bdf3b61667490443e3d2f6ed65f4b3,nova/tests/functional/test_servers.py,6201,rp and on the SRIOV PF rp
+Documentation,nova,I7fc1ba2d2cbdb3f46f3649b1279b0c1a40457647,nova/virt/libvirt/driver.py,292,def remove waiter self token str
+Logic,nova,I6b80021a2f90d3379c821dc8f02a72f350169eb3,nova/virt/machine_type_utils.py,137,force ty Optional bool False
+Documentation,nova,I1423d8a9652751b667463f90c69eae1a054dd776,nova/tests/functional/libvirt/test_pci_sriov_servers.py,736,vdpa info add device f vdpa vdpa idx idx vf
+Visual,nova,Ie653e5ec69d16ae469f1f8171fee85aea754edff,nova/db/sqlalchemy/api.py,4099,continue
+Logic,nova,I8a040f148427cdee7b8a4983efe2b586d73be88d,nova/tests/fixtures.py,1675,binding vif type port binding vif type
+Structure,nova,Id0577bceed9808b52da4acc352cf9c204f6c8861,nova/tests/functional/regressions/test_bug_1896463.py,72,self compute self start compute host
+Visual,nova,I1bdc5e4971204fbfbf0dfcd232cabf2cfe02a966,nova/scheduler/client/report.py,1713,reason another process changed the resource providers or
+Logic,nova,I2c7b183fcb01f3cb67cb1c8b8bea7aaf5ce424f3,nova/virt/libvirt/host.py,1373,raises StopIteration if not found
+Logic,nova,I91dd7993395f693c7d26c1caa44fa365f5cbec12,nova/pci/stats.py,229,fields PciDeviceType VDPA
+Visual,nova,Ie653e5ec69d16ae469f1f8171fee85aea754edff,nova/db/sqlalchemy/api.py,4077,FK
+Structure,nova,I2c7b183fcb01f3cb67cb1c8b8bea7aaf5ce424f3,nova/tests/unit/virt/libvirt/test_host.py,1169,listAllDevices as mock list all devices
+Logic,nova,I8249c572c6f727ef4ca434843106b9b57c47e585,nova/tests/functional/regressions/test_bug_1914777.py,104,uuid server id
+Structure,nova,Ibf8dca4bd57b3bddb39955b53cc03564506f5754,nova/tests/unit/virt/libvirt/fakelibvirt.py,818,def XMLDesc self int str
+Documentation,nova,Id4684093e8bdf3b61667490443e3d2f6ed65f4b3,nova/tests/functional/test_servers.py,6147,start a second compute to show that resources only allocated from
+Structure,nova,I043880cb81b02488d13c3387d696142545c13395,nova/virt/libvirt/driver.py,7296,vdpa devs ty List libvirt virNodeDevice
+Logic,nova,I0307c43dcd0cace1620d2ac75925651d4ee2e96c,nova/virt/libvirt/vif.py,276,def is image meta with multiqueue self image meta
+Documentation,nova,Ibf82b5e8f46b89f8c7dcdc1925bf48d581cdc3f6,nova/db/sqlalchemy/api_migrations/migrate_repo/versions/030_ocata.py,177,Column instance MediumText
+Documentation,nova,I7fc1ba2d2cbdb3f46f3649b1279b0c1a40457647,nova/virt/libvirt/driver.py,267,returns an opque token to be used with wait for event
+Logic,nova,I7fc1ba2d2cbdb3f46f3649b1279b0c1a40457647,nova/virt/libvirt/driver.py,348,else
+Logic,nova,Ifea9a15fb01c0b25e9973024f4f61faecc56e1cd,nova/tests/functional/regressions/test_bug_1879878.py,125,the periodic and rebuild our inventory from scratch
+Structure,nova,I7eb86edc130d186a66c04b229d46347ec5c0b625,nova/tests/unit/virt/libvirt/test_guest.py,342,error message device not found disk vdb not found
+Documentation,nova,I276d2bbce4a0390a6cfd597bb51481cc53eca918,nova/tests/functional/libvirt/test_numa_live_migration.py,387,run periodics after marking the migration confirmed simulating a
+Documentation,nova,I72a03e74fae8704546013d978e9c27a2573b219b,nova/tests/functional/libvirt/test_machine_type.py,317,Launch and shelve some additional instances
+Documentation,nova,Ie166f3b51fddeaf916cda7c5ac34bbcdda0fd17a,nova/network/neutron.py,3531,returns The list of segment UUIDs of the network or an empty list if
+Structure,nova,Ie653e5ec69d16ae469f1f8171fee85aea754edff,nova/db/sqlalchemy/api.py,4106,fk column fk table c id
+Documentation,nova,Iafccbb52cba0c45b5159984d6560b822d9405d5f,nova/db/sqlalchemy/api_migrations/migrate_repo/versions/052_queens.py,105,Column description Text
+Documentation,nova,I20913201cf945a7fde1f9e6264c415e1235db7b9,nova/image/glance.py,342,param write image Write the image file provided by image chunks
+Logic,nova,Ic38ab840f59619bf921e5387cd7a11c88a77b2a5,nova/virt/libvirt/driver.py,5837,q not in machine type
+Logic,nova,I043880cb81b02488d13c3387d696142545c13395,nova/virt/libvirt/driver.py,7311,elif fun cap type phys function and
+Logic,nova,Ibf8dca4bd57b3bddb39955b53cc03564506f5754,nova/virt/libvirt/driver.py,6924,parent dev name if address in vf address else parent
+Structure,nova,I20913201cf945a7fde1f9e6264c415e1235db7b9,nova/image/glance.py,340,param data File object to use when writing the image
+Structure,nova,I0307c43dcd0cace1620d2ac75925651d4ee2e96c,nova/virt/libvirt/vif.py,187,if self is virtio vif model model
+Visual,nova,Id0577bceed9808b52da4acc352cf9c204f6c8861,nova/tests/functional/regressions/test_bug_1896463.py,12,import copy
+Logic,nova,I2ef7c5bef87bd64c087f3b136c2faac9a3865f10,nova/virt/libvirt/driver.py,705,flag flag strip
+Logic,nova,I20913201cf945a7fde1f9e6264c415e1235db7b9,nova/image/glance.py,398,if data is None
+Structure,nova,I667f56612d7f63834863476694cb1f4c71a58302,nova/tests/fixtures.py,1965,print create port with body body

@@ -1,5 +1,5 @@
 Technique,Datasets,Measure,Value
-RF,nova,AUC,0.7809984096597464
+RF,nova,AUC,0.7809992362399198
 RF,nova,Precision,0.5938864628820961
 RF,nova,Recall,0.1878453038674033
 RF,nova,F1 measure,0.2854144805876181
@@ -17,6 +17,15 @@ LG,nova,true negative,1496
 LG,nova,false positive,175
 LG,nova,false negative,592
 LG,nova,true positive,132
+NB,nova,AUC,0.5417187412175857
+NB,nova,Precision,0.41203703703703703
+NB,nova,Recall,0.24585635359116023
+NB,nova,F1 measure,0.3079584775086505
+NB,nova,MCC,0.1120977791708101
+NB,nova,true negative,1417
+NB,nova,false positive,254
+NB,nova,false negative,546
+NB,nova,true positive,178
 DT,nova,AUC,0.6682772581343754
 DT,nova,Precision,0.3771712158808933
 DT,nova,Recall,0.20994475138121546
@@ -26,6 +35,15 @@ DT,nova,true negative,1420
 DT,nova,false positive,251
 DT,nova,false negative,572
 DT,nova,true positive,152
+KNN,nova,AUC,0.5002401215403487
+KNN,nova,Precision,0.3956043956043956
+KNN,nova,Recall,0.14917127071823205
+KNN,nova,F1 measure,0.21664994984954866
+KNN,nova,MCC,0.0728744460601973
+KNN,nova,true negative,1506
+KNN,nova,false positive,165
+KNN,nova,false negative,616
+KNN,nova,true positive,108
 Random Guessing,nova,AUC,0.4895660784722153
 Random Guessing,nova,Precision,0.2842465753424658
 Random Guessing,nova,Recall,0.2292817679558011
@@ -35,7 +53,7 @@ Random Guessing,nova,true negative,1253
 Random Guessing,nova,false positive,418
 Random Guessing,nova,false negative,558
 Random Guessing,nova,true positive,166
-RF,ironic,AUC,0.7819424006726928
+RF,ironic,AUC,0.7819424006726929
 RF,ironic,Precision,0.43089430894308944
 RF,ironic,Recall,0.39552238805970147
 RF,ironic,F1 measure,0.4124513618677043
@@ -53,6 +71,15 @@ LG,ironic,true negative,603
 LG,ironic,false positive,107
 LG,ironic,false negative,92
 LG,ironic,true positive,42
+NB,ironic,AUC,0.7065745217574102
+NB,ironic,Precision,0.3
+NB,ironic,Recall,0.6716417910447762
+NB,ironic,F1 measure,0.4147465437788018
+NB,ironic,MCC,0.2869827939361224
+NB,ironic,true negative,500
+NB,ironic,false positive,210
+NB,ironic,false negative,44
+NB,ironic,true positive,90
 DT,ironic,AUC,0.6172482657136852
 DT,ironic,Precision,0.30337078651685395
 DT,ironic,Recall,0.40298507462686567
@@ -62,6 +89,15 @@ DT,ironic,true negative,586
 DT,ironic,false positive,124
 DT,ironic,false negative,80
 DT,ironic,true positive,54
+KNN,ironic,AUC,0.588606264452386
+KNN,ironic,Precision,0.27884615384615385
+KNN,ironic,Recall,0.21641791044776118
+KNN,ironic,F1 measure,0.24369747899159666
+KNN,ironic,MCC,0.12317611658453079
+KNN,ironic,true negative,635
+KNN,ironic,false positive,75
+KNN,ironic,false negative,105
+KNN,ironic,true positive,29
 Random Guessing,ironic,AUC,0.5018078620979609
 Random Guessing,ironic,Precision,0.16176470588235295
 Random Guessing,ironic,Recall,0.16417910447761194
@@ -71,7 +107,7 @@ Random Guessing,ironic,true negative,596
 Random Guessing,ironic,false positive,114
 Random Guessing,ironic,false negative,112
 Random Guessing,ironic,true positive,22
-RF,base,AUC,0.7039885510282388
+RF,base,AUC,0.7039880743849514
 RF,base,Precision,0.45614035087719296
 RF,base,Recall,0.12807881773399016
 RF,base,F1 measure,0.2
@@ -89,6 +125,15 @@ LG,base,true negative,3196
 LG,base,false positive,249
 LG,base,false negative,495
 LG,base,true positive,114
+NB,base,AUC,0.6671163796082469
+NB,base,Precision,0.18899963086009597
+NB,base,Recall,0.8407224958949097
+NB,base,F1 measure,0.3086196503918023
+NB,base,MCC,0.15402991800038687
+NB,base,true negative,1248
+NB,base,false positive,2197
+NB,base,false negative,97
+NB,base,true positive,512
 DT,base,AUC,0.5555525368147359
 DT,base,Precision,0.3026315789473684
 DT,base,Recall,0.18883415435139572
@@ -98,6 +143,15 @@ DT,base,true negative,3180
 DT,base,false positive,265
 DT,base,false negative,494
 DT,base,true positive,115
+KNN,base,AUC,0.6021718251386435
+KNN,base,Precision,0.31309904153354634
+KNN,base,Recall,0.16091954022988506
+KNN,base,F1 measure,0.21258134490238614
+KNN,base,MCC,0.1318616980242222
+KNN,base,true negative,3230
+KNN,base,false positive,215
+KNN,base,false negative,511
+KNN,base,true positive,98
 Random Guessing,base,AUC,0.48613039530411034
 Random Guessing,base,Precision,0.12
 Random Guessing,base,Recall,0.09359605911330049

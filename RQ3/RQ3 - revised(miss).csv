@@ -1,0 +1,363 @@
+,,,,,
+,,,,,
+Label,dataset,changeId,fileName,lineNumber,token
+,,,,,
+Visual,base,I02a8bdad6138758106283495098c72770ea74e52,src/corelib/global/qfloat16.h,154,f b a b quint x
+Structure,base,I02a8bdad6138758106283495098c72770ea74e52,src/corelib/global/qfloat16.h,146,friend inline int qIntCast qfloat f noexcept
+Visual,base,I02a8bdad6138758106283495098c72770ea74e52,src/corelib/global/qfloat16.h,160,return qfloat static cast float a static cast float b
+Documentation,base,I02a8bdad6138758106283495098c72770ea74e52,src/corelib/global/qfloat16.h,137,which the two operands can vary and still return true
+Logic,base,I03d11a3f915a03bd57f79b8db2023ed4720e2ef8,tests/auto/corelib/text/qregularexpression/tst_qregularexpression.cpp,563,QVERIFY it d
+Interface,base,I05877de9c02857594e76b24d52e7578bdb01df69,src/network/ssl/qsslsocket_schannel.cpp,2175,QList QSsl SslProtocol QSslSocketPrivate supportedProtocols
+Logic,base,I06b4f54e300541033a9a18339c97338717a06da0,src/corelib/text/qregularexpression.cpp,1431,return d d patternOptions QRegularExpression NoPatternOption
+Visual,base,I06b4f54e300541033a9a18339c97338717a06da0,src/corelib/text/qregularexpression.cpp,1557,int errorStringLength
+Structure,base,I06b4f54e300541033a9a18339c97338717a06da0,src/corelib/text/qregularexpression.cpp,1751,d new QRegularExpressionPrivate
+Logic,base,I06b4f54e300541033a9a18339c97338717a06da0,src/corelib/text/qregularexpression.cpp,2161,return d d matchType QRegularExpression NoMatch
+Logic,base,I06b4f54e300541033a9a18339c97338717a06da0,tests/auto/corelib/text/qregularexpression/tst_qregularexpression.cpp,543,QCOMPARE match hasPartialMatch match hasPartialMatch
+Visual,base,I06b4f54e300541033a9a18339c97338717a06da0,tests/auto/corelib/text/qregularexpression/tst_qregularexpression.cpp,522,QRegularExpressionMatch match re match abctestdef
+Logic,base,I06b4f54e300541033a9a18339c97338717a06da0,tests/auto/corelib/text/qregularexpression/tst_qregularexpression.cpp,483,expr optimize simply call it to check that it does not crash
+Logic,base,I06b4f54e300541033a9a18339c97338717a06da0,tests/auto/corelib/text/qregularexpression/tst_qregularexpression.cpp,550,QCOMPARE match capturedEnd match capturedEnd
+Structure,base,I096e609edbb760b5686d577e7fe47eea0807904e,src/gui/kernel/qeventpoint.h,80,Q PROPERTY QPointF normalizedPosition READ normalizedPosition CONSTANT
+Interface,base,I219f08d73b97317820ec6e329ab1e6c89c0545f1,tests/auto/concurrent/qtconcurrentmap/tst_qtconcurrentmap.cpp,510,std forward MapObject mapObject
+Interface,base,I219f08d73b97317820ec6e329ab1e6c89c0545f1,tests/auto/concurrent/qtconcurrentmap/tst_qtconcurrentmap.cpp,734,sourceObjectList std forward MapObject mapObject
+Interface,base,I219f08d73b97317820ec6e329ab1e6c89c0545f1,tests/auto/concurrent/qtconcurrentmap/tst_qtconcurrentmap.cpp,1189,std forward MapObject mapObject std forward ReduceObject reduceObject
+Logic,base,I29cf4f94b8e98e1af30dd46fbdba39c421cf66bf,src/corelib/thread/qfutureinterface.cpp,633,useProgressRange useProgressRange m progressValue m progressMaximum
+Structure,base,I2a09b1dcdd907d60085dccf17f987086dcba878c,src/corelib/kernel/qmetatype.cpp,683,if where
+Logic,base,I32258cb7c957f2a23a05157ba4ed5c0af2ba585e,tests/auto/network/access/qdecompresshelper/tst_qdecompresshelper.cpp,438,const auto isZero char c return c
+Logic,base,I349af43468b03fd8dcb16adba02669974affe154,src/plugins/platforms/ios/quiview.mm,702,if qApp focusWindow
+Logic,base,I349af43468b03fd8dcb16adba02669974affe154,src/plugins/platforms/ios/quiview.mm,664,ulong modifierFlags key modifierFlags
+Structure,base,I349af43468b03fd8dcb16adba02669974affe154,src/plugins/platforms/ios/quiview.mm,598,else if charactersIgnoringModifiers UIKeyInputF
+Structure,base,I349af43468b03fd8dcb16adba02669974affe154,src/plugins/platforms/ios/quiview.mm,610,else if charactersIgnoringModifiers UIKeyInputF
+Structure,base,I349af43468b03fd8dcb16adba02669974affe154,src/plugins/platforms/ios/quiview.mm,617,return Qt Key Down
+Structure,base,I349af43468b03fd8dcb16adba02669974affe154,src/plugins/platforms/ios/quiview.mm,586,UIKey key press key
+Structure,base,I3c84a188cdbb0d09e0e7c66588c7638c8a8328fd,src/corelib/tools/qvarlengtharray.h,325,friend bool operator const QVarLengthArray T Prealloc l const QVarLengthArray T Prealloc r
+Structure,base,I3c84a188cdbb0d09e0e7c66588c7638c8a8328fd,src/corelib/tools/qvarlengtharray.h,373,endif
+Documentation,base,I43803a0dfe210353d0235f0373d2257f75ffe534,src/corelib/kernel/qproperty.cpp,794,Returns a default constructed QUntypedPropertyBinding if no property is set
+Visual,base,I4382dd53a225375759b9d042f6035a4a9810572b,src/corelib/kernel/qjniobject.cpp,1474,if id
+Structure,base,I4382dd53a225375759b9d042f6035a4a9810572b,src/corelib/kernel/qjniobject.cpp,311,return true
+Logic,base,I4382dd53a225375759b9d042f6035a4a9810572b,src/corelib/kernel/qjniobject.cpp,1712,return env IsSameObject d m jobject obj
+Structure,base,I4382dd53a225375759b9d042f6035a4a9810572b,src/corelib/kernel/qjniobject.h,209,inline bool operator const QJniObject obj T obj
+Visual,base,I4bfe6c14304d311b903878acd5b4c8169f4065c7,src/widgets/kernel/qtooltip.cpp,105,setPalette and setFont When a tool tip is currently on
+Documentation,base,I4cf81c8283262cbf59ee3fb7064a59837332ced7,src/gui/kernel/qevent.h,95,quint m extra
+Documentation,base,I5a0a4742dae9b6f0caa65d0e93edcf3658bee9f8,src/corelib/global/qnumeric.cpp,293,private API
+Visual,base,I5b9add3be5f17b387e2d34028b72c8f52db68444,src/corelib/tools/qlist.h,375,d detach oldData
+Logic,base,I648747547f0525a482216b1e1972fcc698c73f65,tests/auto/network/ssl/qsslcertificate/tst_qsslcertificate.cpp,476,else
+Logic,base,I66443c3021d6ba98639a214c3e768be97d2cf14b,src/corelib/io/qwindowspipereader.cpp,260,return
+Logic,base,I66443c3021d6ba98639a214c3e768be97d2cf14b,src/corelib/io/qwindowspipereader.cpp,262,bytesToRead maxBytesToRead
+Logic,base,I66443c3021d6ba98639a214c3e768be97d2cf14b,src/corelib/io/qwindowspipereader.cpp,293,if lastError ERROR SUCCESS
+Logic,base,I66443c3021d6ba98639a214c3e768be97d2cf14b,src/corelib/io/qwindowspipereader.cpp,253,while maxBytesToRead
+Structure,base,I66443c3021d6ba98639a214c3e768be97d2cf14b,src/corelib/io/qwindowspipewriter_p.h,138,bool emitPendingSignals bool allowWinActPosting
+Documentation,base,I66443c3021d6ba98639a214c3e768be97d2cf14b,src/corelib/io/qwindowspipewriter.cpp,246,The other end has closed the pipe This can happen in QLocalSocket Do not warn
+Logic,base,I66443c3021d6ba98639a214c3e768be97d2cf14b,src/corelib/io/qwindowspipewriter.cpp,336,return true
+Logic,base,I66443c3021d6ba98639a214c3e768be97d2cf14b,src/corelib/io/qwindowspipewriter.cpp,335,if emitPendingSignals false
+Logic,base,I66443c3021d6ba98639a214c3e768be97d2cf14b,src/corelib/io/qwindowspipewriter.cpp,162,return
+Logic,base,I66443c3021d6ba98639a214c3e768be97d2cf14b,src/corelib/io/qwindowspipewriter.cpp,306,int msecs timeout
+Logic,base,I66443c3021d6ba98639a214c3e768be97d2cf14b,src/corelib/io/qwindowspipewriter.cpp,177,if dwError ERROR IO PENDING
+Logic,base,I6905c393647d31fab958cdd9471bb0a6ffe83596,src/gui/util/qktxhandler.cpp,210,const bool isHDRCubeMap
+Logic,base,I7449dc1f9a118d4b7a8158a2c34563dbd9c43c66,tests/auto/corelib/tools/qduplicatetracker/tst_qduplicatetracker.cpp,115,copies other copies
+Visual,base,I7566a4f2915ada9defa1a4bcee10f75021222b30,src/gui/rhi/qrhimetal.mm,3843,layerSize width layer contentsScale
+Structure,base,I7566a4f2915ada9defa1a4bcee10f75021222b30,src/gui/rhi/qrhimetal.mm,3935,the drawable size in frames
+Visual,base,I7566a4f2915ada9defa1a4bcee10f75021222b30,src/gui/rhi/qrhimetal.mm,3844,layerSize height layer contentsScale
+Structure,base,I7566a4f2915ada9defa1a4bcee10f75021222b30,src/gui/rhi/qrhimetal.mm,3982,if samples
+Structure,base,I7566a4f2915ada9defa1a4bcee10f75021222b30,src/gui/rhi/qrhimetal.mm,3988,desc sampleCount NSUInteger samples
+Structure,base,I7566a4f2915ada9defa1a4bcee10f75021222b30,src/gui/rhi/qrhimetal.mm,3927,premultiplied alpha so it is not a problem there
+Visual,base,I7566a4f2915ada9defa1a4bcee10f75021222b30,src/gui/rhi/qrhimetal.mm,3795,d msaaTex i release
+Structure,base,I7566a4f2915ada9defa1a4bcee10f75021222b30,src/gui/rhi/qrhimetal.mm,3991,desc usage MTLTextureUsageRenderTarget
+Logic,base,I76541d6785bbbf27976b9f0b865fb45be1e9beee,tests/auto/corelib/kernel/qproperty/tst_qproperty.cpp,1438,bool operator const CustomType other const return value other value
+Documentation,base,I7856e9b63eea5ba68a5472575016540ae656ec5f,src/corelib/kernel/qjniobject.cpp,58,each JNI operation and clearing the environment
+Interface,base,I7b9b97ae9b32412abdc6fffd164523eeae49cdfe,src/corelib/serialization/qcborstreamreader.cpp,1537,array resize toRead
+Logic,base,I7b9b97ae9b32412abdc6fffd164523eeae49cdfe,src/corelib/serialization/qcborstreamreader.cpp,1539,if toRead MaxByteArraySize
+Interface,base,I7d5a7e829ce8b98a0a1a7fae6b7ae0dec4effbae,src/corelib/text/qstring.cpp,2510,If a size is an underestimate the worst that will happen is that the
+Logic,base,I8267f85927ec8315d511ac38757bc8d8aaaa5672,src/corelib/text/qstring.cpp,3623,relates QString
+Interface,base,I8267f85927ec8315d511ac38757bc8d8aaaa5672,src/corelib/text/qstring.cpp,3567,relates QString
+Structure,base,I8409d81fd11fb46e6ab4465b4937a7680a8c2447,src/network/ssl/qtlsbackend.cpp,58,class BackEndFactoryCollection
+Structure,base,I8409d81fd11fb46e6ab4465b4937a7680a8c2447,src/network/ssl/qtlsbackend.cpp,147,BackEndFactoryCollection operator const
+Structure,base,I8409d81fd11fb46e6ab4465b4937a7680a8c2447,src/network/ssl/qtlsbackend.cpp,142,struct CollectionWrapper
+Logic,base,I8d551f4b066cc285101646230bd9a17869ada3c1,tests/auto/corelib/global/qlogging/tst_qmessagelogger.cpp,282,QVERIFY messageInfo category
+Logic,base,I8d551f4b066cc285101646230bd9a17869ada3c1,tests/auto/corelib/global/qlogging/tst_qmessagelogger.cpp,44,const char function
+Structure,base,I9554637f5230b1f57faaeef6b2c04cf082271edb,src/gui/image/qabstractfileiconprovider.cpp,76,break
+Visual,base,I99414db4424b4342e0fa3d7a3789f85cad76d190,src/corelib/io/qprocess_win.cpp,809,stdoutChannel reader waitForReadyRead
+Documentation,base,I99eeb5a1aab03cbc574fac7187d85a8a2d60cf34,src/widgets/widgets/qtabbar.cpp,2737,Q D QTabBar
+Visual,base,I99eeb5a1aab03cbc574fac7187d85a8a2d60cf34,src/widgets/widgets/qtabbar.h,180,void setTabsScrollable bool scrollable
+Structure,base,I9dba1b373250cea4d0c806997290a7afcdc900d7,src/gui/util/qktxhandler.cpp,239,isReadingKey false
+Logic,base,Iaf768657644afa45f78f5c81ffcf89ba9607be96,tests/auto/corelib/tools/qset/tst_qset.cpp,652,const auto copiedElement set begin
+Documentation,base,Ibd31b9c482962b1618daf04fef4256aa52d589e3,src/corelib/kernel/qproperty.cpp,1190,not read from the QObjectComputedProperty object
+Structure,base,Ic726754f67e06b3764302d2fad252e0378a77afc,src/corelib/text/qstringview.cpp,974,QRegularExpressionMatch m re match this
+Structure,base,Ic726754f67e06b3764302d2fad252e0378a77afc,src/corelib/text/qstringview.cpp,998,while index len
+Structure,base,Ic726754f67e06b3764302d2fad252e0378a77afc,src/corelib/text/qstringview.cpp,999,QRegularExpressionMatch match re match this index
+Structure,base,Ic726754f67e06b3764302d2fad252e0378a77afc,src/corelib/text/qstringview.cpp,1001,break
+Interface,base,Ic7f9ca590a8ea8a9696b84f35bad074780794461,src/corelib/thread/qfuture_impl.h,748,QFutureInterface T promise
+Interface,base,Ic7f9ca590a8ea8a9696b84f35bad074780794461,tests/auto/corelib/thread/qfuture/tst_qfuture.cpp,3335,auto f QtFuture makeExceptionalFuture int exception
+Documentation,base,Ic7f9ca590a8ea8a9696b84f35bad074780794461,tests/auto/corelib/thread/qfuture/tst_qfuture.cpp,3297,using const T
+Logic,base,Ic90d8429a0eb4837971dfffd1664ef1293a6523d,src/corelib/io/qprocess_unix.cpp,942,strcpy childStatus function chdir
+Logic,base,Icff5685b921f8a99acfeda1d79bb03ee652aa107,tests/benchmarks/corelib/kernel/qproperty/propertytester.h,54,void setYOld int i
+Structure,base,Id3da469cc13b34ec7b55afa751dbc04601880df6,src/plugins/platforms/android/androidjniinput.cpp,294,endif
+Structure,base,Idef775ef6cf9f9ded3ce7ba5b85e460571d12756,tests/benchmarks/corelib/text/qregularexpression/main.cpp,38,pattern or matching options
+Structure,base,Idef775ef6cf9f9ded3ce7ba5b85e460571d12756,tests/benchmarks/corelib/text/qregularexpression/main.cpp,48,void createAndMove data const
+Structure,base,Idef775ef6cf9f9ded3ce7ba5b85e460571d12756,tests/benchmarks/corelib/text/qregularexpression/main.cpp,34,The main idea of the benchmark is to compare performance of QRE classes
+Structure,base,Idef775ef6cf9f9ded3ce7ba5b85e460571d12756,tests/benchmarks/corelib/text/qregularexpression/main.cpp,167,if matchResultIterator isValid
+Structure,base,Idef775ef6cf9f9ded3ce7ba5b85e460571d12756,tests/benchmarks/corelib/text/qregularexpression/main.cpp,47,private slots
+Structure,base,Idef775ef6cf9f9ded3ce7ba5b85e460571d12756,tests/benchmarks/corelib/text/qregularexpression/main.cpp,55,void globalMatch const
+Structure,base,Idef775ef6cf9f9ded3ce7ba5b85e460571d12756,tests/benchmarks/corelib/text/qregularexpression/main.cpp,126,matchResult lastCapturedIndex
+Structure,base,Ie130e1791250ec2a4470e3ba7081d982654af06c,src/network/kernel/qnetworkinformation.h,76,QBindable Reachability bindableReachability const
+Structure,base,Ie130e1791250ec2a4470e3ba7081d982654af06c,tests/auto/network/kernel/qnetworkinformation/tst_qnetworkinformation.cpp,80,static inline QMockBackend instance nullptr
+Structure,base,Ie130e1791250ec2a4470e3ba7081d982654af06c,tests/auto/network/kernel/qnetworkinformation/tst_qnetworkinformation.cpp,92,return QMockBackend featuresSupportedStatic
+Documentation,base,Ie55e7d7829363bd5a29430a4250ddba14a761912,src/corelib/kernel/qproperty.cpp,1140,developer s responsibility to trigger those updates later using markDirty For the
+Documentation,base,Ie55e7d7829363bd5a29430a4250ddba14a761912,src/corelib/kernel/qproperty.cpp,1146,myProperty markDirty
+Interface,base,Ie65d2b1b3eb891c20bc82275d7a0da00c30d7b8d,src/corelib/text/qlocale.cpp,556,if cntry
+Documentation,base,Ie9e8ef47a85d0867c2fa63889a60cafbe76ee47a,src/corelib/text/qbytearray.cpp,1069,one past the last byte in the byte array in reverse order
+Documentation,base,Ie9e8ef47a85d0867c2fa63889a60cafbe76ee47a,src/corelib/text/qbytearray.cpp,802,to stability issues They are often invalidated when QByteArray modifying
+Documentation,base,Ie9e8ef47a85d0867c2fa63889a60cafbe76ee47a,src/corelib/text/qbytearray.cpp,854,limitation in size on bit systems The actual value also depends on the
+Documentation,base,Iebaccc50a51d51b2067f8a50def34fe08df82095,src/corelib/text/qstring.cpp,9575,Returns c true if string a s is
+Documentation,base,Iebaccc50a51d51b2067f8a50def34fe08df82095,src/corelib/text/qstring.cpp,5873,Returns c true if a s is
+Documentation,base,Iebaccc50a51d51b2067f8a50def34fe08df82095,src/corelib/text/qstring.cpp,9798,l http en cppreference com w cpp algorithm lexicographical compare
+Documentation,base,Iebaccc50a51d51b2067f8a50def34fe08df82095,src/corelib/text/qstring.cpp,9660,l http en cppreference com w cpp algorithm lexicographical compare
+Documentation,base,Iebaccc50a51d51b2067f8a50def34fe08df82095,src/corelib/text/qstring.cpp,9600,Returns c true if string a s is
+Documentation,base,Iebaccc50a51d51b2067f8a50def34fe08df82095,src/corelib/text/qstring.cpp,9609,l http en cppreference com w cpp algorithm lexicographical compare
+Documentation,base,Iebaccc50a51d51b2067f8a50def34fe08df82095,src/corelib/text/qstring.cpp,9726,l http en cppreference com w cpp algorithm lexicographical compare
+Documentation,base,Iebaccc50a51d51b2067f8a50def34fe08df82095,src/corelib/text/qstring.cpp,9671,Returns c true if string a s is
+Documentation,base,Iebaccc50a51d51b2067f8a50def34fe08df82095,src/corelib/text/qstring.cpp,5989,Lexicographically compares this string with the a other string and
+Documentation,base,Iebaccc50a51d51b2067f8a50def34fe08df82095,src/corelib/text/qstring.cpp,3670,Returns c true if a s is
+Interface,base,Ief7de1b709387d798138387bb735f4b48cf2928d,src/plugins/platforms/android/qandroidplatformscreen.cpp,482,for QWindow w list
+Structure,base,If17ea4d410d49f16b097e88b7979db5d72add820,src/gui/painting/qrangecollection.cpp,129,d ptr intervals
+Structure,base,If17ea4d410d49f16b097e88b7979db5d72add820,src/gui/painting/qrangecollection.cpp,128,else
+Logic,base,If36914ab0165f33593e68fd7ecf168693f8538a7,src/plugins/platforms/android/androidjniaccessibility.cpp,198,else
+Documentation,base,If36914ab0165f33593e68fd7ecf168693f8538a7,src/plugins/platforms/android/qandroidplatformaccessibility.cpp,59,We do not need implementation of all events as on every accessibility interaction
+Structure,base,If762defba025ad7f7489f8a86ef5768a8628bd2f,src/corelib/global/qlibraryinfo.cpp,142,bool QLibraryInfoPrivate haveEffectiveSourcePaths
+Structure,base,If762defba025ad7f7489f8a86ef5768a8628bd2f,src/corelib/global/qlibraryinfo.cpp,152,bool QLibraryInfoPrivate havePaths
+Logic,ironic,I11c93de2ba8c6c952394856ab828989346377766,ironic/drivers/modules/redfish/management.py,1022,if system ethernet interfaces
+Logic,ironic,I1d253650f6a3b98dbbe4e09c167c35526f5f940c,ironic/drivers/utils.py,429,elif CONF mold storage web
+Logic,ironic,I1d253650f6a3b98dbbe4e09c167c35526f5f940c,ironic/tests/unit/drivers/test_utils.py,442,self node save
+Logic,ironic,I1d253650f6a3b98dbbe4e09c167c35526f5f940c,ironic/tests/unit/drivers/test_utils.py,520,mock conf mold storage swift
+Visual,ironic,I1d253650f6a3b98dbbe4e09c167c35526f5f940c,ironic/tests/unit/drivers/test_utils.py,450,self node url data
+Interface,ironic,I1d253650f6a3b98dbbe4e09c167c35526f5f940c,ironic/tests/unit/drivers/test_utils.py,507,result driver utils get configuration mold self node url
+Visual,ironic,I1d253650f6a3b98dbbe4e09c167c35526f5f940c,ironic/tests/unit/drivers/test_utils.py,523,self assertRaises
+Logic,ironic,I1d253650f6a3b98dbbe4e09c167c35526f5f940c,ironic/tests/unit/drivers/test_utils.py,455,mock conf mold storage web
+Structure,ironic,I1d253650f6a3b98dbbe4e09c167c35526f5f940c,ironic/tests/unit/drivers/test_utils.py,562,mock patch object driver utils CONF autospec True
+Structure,ironic,I1d5b3892451579ebfd4d75a0f7185e0ef3c984c8,ironic/tests/unit/cmd/test_status.py,107,self cmd check policy json code
+Structure,ironic,I1d5b3892451579ebfd4d75a0f7185e0ef3c984c8,ironic/tests/unit/cmd/test_status.py,95,tmpfilename os path join self temp dir policy yaml
+Structure,ironic,I1d5b3892451579ebfd4d75a0f7185e0ef3c984c8,ironic/tests/unit/cmd/test_status.py,20,from oslo serialization import jsonutils
+Documentation,ironic,I224eca4d8b331711369b17903098daa9fec27d7d,ironic/drivers/modules/ilo/boot.py,1144,boot device
+Visual,ironic,I224eca4d8b331711369b17903098daa9fec27d7d,ironic/drivers/modules/ilo/boot.py,78,image containing EFI boot loader This image will be
+Documentation,ironic,I224eca4d8b331711369b17903098daa9fec27d7d,ironic/drivers/modules/ilo/boot.py,1148,Otherwise it finds creates the boot ISO to boot the instance
+Structure,ironic,I224eca4d8b331711369b17903098daa9fec27d7d,ironic/drivers/modules/ilo/common.py,880,ilo object set http boot url iso
+Structure,ironic,I224eca4d8b331711369b17903098daa9fec27d7d,ironic/tests/unit/drivers/modules/ilo/test_common.py,1350,self assertRaises exception IloOperationError
+Structure,ironic,I224eca4d8b331711369b17903098daa9fec27d7d,ironic/tests/unit/drivers/modules/ilo/test_common.py,1264,path mock
+Structure,ironic,I224eca4d8b331711369b17903098daa9fec27d7d,ironic/tests/unit/drivers/modules/ilo/test_common.py,1216,ilo mock object update persistent boot assert not called
+Structure,ironic,I224eca4d8b331711369b17903098daa9fec27d7d,ironic/tests/unit/drivers/modules/ilo/test_common.py,1305,shared False as task
+Structure,ironic,I224eca4d8b331711369b17903098daa9fec27d7d,ironic/tests/unit/drivers/modules/ilo/test_common.py,1327,shared False as task
+Documentation,ironic,I2869bf21f761cfc543798cf1f7d97c5500cd3681,ironic/api/controllers/v1/utils.py,1522,is a separate policy check because it governs our API response
+Documentation,ironic,I2869bf21f761cfc543798cf1f7d97c5500cd3681,ironic/api/controllers/v1/utils.py,1530,a non read operation
+Interface,ironic,I2869bf21f761cfc543798cf1f7d97c5500cd3681,ironic/common/policy.py,386,the API clients with insufficent privileges
+Visual,ironic,I2960d0f808949582dc964f4f5688a462d397de9e,ironic/common/policy.py,66,PROJECT READER role reader and project id project id s
+Structure,ironic,I3dc2d42b3edd2a9530595e752895e9d113f76ea8,ironic/api/controllers/v1/node.py,991,msg deploy steps is only valid when setting target
+Logic,ironic,I3dc2d42b3edd2a9530595e752895e9d113f76ea8,ironic/tests/unit/conductor/test_steps.py,922,result conductor steps validate user deploy steps
+Logic,ironic,I4a66401b24c49c705861e0745867b7fc706a7509,ironic/db/sqlalchemy/api.py,1544,return
+Structure,ironic,I60e273afaf344fded9bdb8c4c8e143efc9971fc1,ironic/api/controllers/v1/allocation.py,215,print filters
+Structure,ironic,I60e273afaf344fded9bdb8c4c8e143efc9971fc1,ironic/api/controllers/v1/allocation.py,351,print allocation node
+Visual,ironic,I62492f7396805433ac3577274ffbbb5d787d0fc1,ironic/common/args.py,344,Unexpected arguments s join extra args
+Structure,ironic,I62492f7396805433ac3577274ffbbb5d787d0fc1,ironic/common/args.py,165,param name Name of the argument
+Structure,ironic,I62492f7396805433ac3577274ffbbb5d787d0fc1,ironic/tests/unit/common/test_args.py,303,def doit foo
+Interface,ironic,I62492f7396805433ac3577274ffbbb5d787d0fc1,ironic/tests/unit/common/test_args.py,60,def needs macaddress self one
+Interface,ironic,I62492f7396805433ac3577274ffbbb5d787d0fc1,ironic/tests/unit/common/test_args.py,265,def test macaddress self
+Structure,ironic,I62492f7396805433ac3577274ffbbb5d787d0fc1,ironic/tests/unit/common/test_args.py,313,self assertRaises exception InvalidParameterValue doit
+Interface,ironic,I62492f7396805433ac3577274ffbbb5d787d0fc1,ironic/tests/unit/common/test_args.py,577,bar args uuid
+Structure,ironic,I68c5f2bae76ca313ba77285747dc6b1bc8b623b9,ironic/api/controllers/v1/portgroup.py,367,try
+Documentation,ironic,I68c5f2bae76ca313ba77285747dc6b1bc8b623b9,ironic/api/controllers/v1/portgroup.py,493,If we can t at least read it then we can t return the object
+Documentation,ironic,I68c5f2bae76ca313ba77285747dc6b1bc8b623b9,ironic/api/controllers/v1/portgroup.py,614,Check access to the base object frist
+Interface,ironic,I8dfd16abf9da0c1a72858a45bdc1aa277351e00f,ironic/tests/unit/api/controllers/v1/test_utils.py,1539,port
+Interface,ironic,I8dfd16abf9da0c1a72858a45bdc1aa277351e00f,ironic/tests/unit/api/controllers/v1/test_utils.py,1521,port
+Documentation,ironic,Ia169640b7084d17d26f22e457c7af512db6d21d6,ironic/drivers/modules/agent_client.py,238,is only possible from the command execution interface
+Documentation,ironic,Ia169640b7084d17d26f22e457c7af512db6d21d6,ironic/drivers/modules/agent_client.py,237,faultstring indicating that the Agent is busy which
+Structure,ironic,Ib5ae16bacfd79f479a9aa8fbf69edc5cfdf73ce3,ironic/drivers/modules/drac/vendor_passthru.py,217,raises MissingParameterValue if some required parameters were not
+Structure,ironic,Ib5ae16bacfd79f479a9aa8fbf69edc5cfdf73ce3,ironic/drivers/modules/drac/vendor_passthru.py,255,Validates if insert vmedia inputs are proper
+Structure,ironic,Ib5ae16bacfd79f479a9aa8fbf69edc5cfdf73ce3,ironic/drivers/modules/drac/vendor_passthru.py,216,parameters
+Structure,ironic,Ib5ae16bacfd79f479a9aa8fbf69edc5cfdf73ce3,ironic/drivers/modules/drac/vendor_passthru.py,250,Validates if eject vmedia inputs are proper
+Structure,ironic,Ib5ae16bacfd79f479a9aa8fbf69edc5cfdf73ce3,ironic/drivers/modules/drac/vendor_passthru.py,290,Insert bootable ISO image into virtual CD or DVD
+Structure,ironic,Ib5ae16bacfd79f479a9aa8fbf69edc5cfdf73ce3,ironic/drivers/modules/drac/vendor_passthru.py,206,METRICS timer DracRedfishVendorPassthru validate
+Structure,ironic,Ib5ae16bacfd79f479a9aa8fbf69edc5cfdf73ce3,ironic/drivers/modules/drac/vendor_passthru.py,227,return
+Structure,ironic,Ib5ae16bacfd79f479a9aa8fbf69edc5cfdf73ce3,ironic/drivers/modules/drac/vendor_passthru.py,236,passthru Some parameters were not provided
+Visual,ironic,Ib5ae16bacfd79f479a9aa8fbf69edc5cfdf73ce3,ironic/drivers/modules/redfish/vendor.py,108,boot device the boot device to eject
+Structure,ironic,Ib5ae16bacfd79f479a9aa8fbf69edc5cfdf73ce3,ironic/drivers/modules/redfish/vendor.py,114,METRICS timer RedfishVendorPassthru insert vmedia
+Logic,ironic,Icbdd284de38b8e54c52cdbba709bba0e644c35cd,ironic/common/pxe_utils.py,117,client id client id
+Interface,ironic,Id1b60f5525773eadbe1b85797eeefdb70d73ae1d,ironic/tests/unit/common/test_policy.py,97,is node owner true dict
+Interface,ironic,Id1b60f5525773eadbe1b85797eeefdb70d73ae1d,ironic/tests/unit/common/test_policy.py,187,baremetal node get true dict
+Interface,ironic,Id1b60f5525773eadbe1b85797eeefdb70d73ae1d,ironic/tests/unit/common/test_policy.py,33,scenarios
+Interface,ironic,Id1b60f5525773eadbe1b85797eeefdb70d73ae1d,ironic/tests/unit/common/test_policy.py,78,is member true dict
+Interface,ironic,Id1b60f5525773eadbe1b85797eeefdb70d73ae1d,ironic/tests/unit/common/test_policy.py,213,baremetal node create false dict
+Interface,ironic,Id1b60f5525773eadbe1b85797eeefdb70d73ae1d,ironic/tests/unit/common/test_policy.py,95,project domain id default
+Logic,ironic,Id8365f150f8f5828b99627e1f31b0bc30f3a28f2,ironic/common/policy.py,499,check str SYSTEM ADMIN
+Logic,ironic,Idc86d7b78854e0618f62c7e4c1a88670dc4561b0,ironic/tests/unit/drivers/modules/ilo/test_common.py,1289,ilo common export certificates task
+Logic,ironic,Idc86d7b78854e0618f62c7e4c1a88670dc4561b0,ironic/tests/unit/drivers/modules/ilo/test_common.py,1238,ilo mock object add tls certificate assert not called
+Structure,ironic,Ie19db9e0cf1eafdfc9bb46248f4d457337821f94,ironic/tests/unit/drivers/modules/test_ipmitool.py,2436,self assertTrue bootdev persistent
+Logic,ironic,Ie8f3f68c4a771121ec0ee13ce9349c7cd2b1e567,ironic/drivers/modules/redfish/management.py,883,messages sushy task messages
+Visual,ironic,Ie8f3f68c4a771121ec0ee13ce9349c7cd2b1e567,ironic/drivers/modules/redfish/management.py,803,LOG info During query firmware update status node
+Structure,ironic,Ie8f3f68c4a771121ec0ee13ce9349c7cd2b1e567,ironic/drivers/modules/redfish/management.py,843,firmware update pop sleep start time None
+Structure,ironic,Iefb7f882c97e33a176962e4e907163d9e4809445,ironic/drivers/modules/drac/raid.py,1180,if real time does not get ready By default to wait
+Visual,ironic,Iefb7f882c97e33a176962e4e907163d9e4809445,ironic/tests/unit/drivers/modules/drac/test_raid.py,2316,mock log
+Visual,ironic,Iefb7f882c97e33a176962e4e907163d9e4809445,ironic/tests/unit/drivers/modules/drac/test_raid.py,2329,def test get is realtime ready all managers fail self mock get system
+Logic,nova,I03bcd6753ed776d2ee216dcdca48514e5da8c43e,nova/tests/functional/integrated_helpers.py,442,server id
+Logic,nova,I1423d8a9652751b667463f90c69eae1a054dd776,nova/tests/functional/libvirt/test_pci_sriov_servers.py,751,return orig create xml host
+Structure,nova,I15271fb0b8de7f1184acddd607d605837e2eb7d4,nova/tests/fixtures.py,2228,name cinder encryption key image
+Visual,nova,I15271fb0b8de7f1184acddd607d605837e2eb7d4,nova/tests/functional/regressions/test_bug_1895696.py,44,volume is unsupported str ex
+Documentation,nova,I15271fb0b8de7f1184acddd607d605837e2eb7d4,nova/tests/functional/regressions/test_bug_1895696.py,22,This regression test asserts that server creation requests are rejected
+Visual,nova,I1d270cc3e88a74097eefe3b887106222ae06fe1c,nova/pci/manager.py,66,if numa topology
+Documentation,nova,I20913201cf945a7fde1f9e6264c415e1235db7b9,nova/image/glance.py,339,param dst path Filepath to transfer the image file to
+Structure,nova,I2489bf16dabc8a83b2044139247f4245ae29adb1,nova/virt/libvirt/driver.py,6437,libvirt guest Guest
+Structure,nova,I2489bf16dabc8a83b2044139247f4245ae29adb1,nova/virt/libvirt/driver.py,6442,guest libvirt guest Guest domain
+Structure,nova,I2489bf16dabc8a83b2044139247f4245ae29adb1,nova/virt/libvirt/driver.py,6433,self
+Structure,nova,I258df4d77f6d86df1d867a8fe27360731c21d237,nova/conductor/manager.py,1037,return
+Visual,nova,I276d2bbce4a0390a6cfd597bb51481cc53eca918,nova/tests/functional/libvirt/test_numa_live_migration.py,410,self assert host consumed cpus host b
+Visual,nova,I2881d77d52bcbde9f3ac6a6ddfb4a22a9bd45c8a,nova/tests/unit/compute/test_api.py,561,mock patch object objects BlockDeviceMapping
+Visual,nova,I2c7b183fcb01f3cb67cb1c8b8bea7aaf5ce424f3,nova/tests/unit/virt/libvirt/test_host.py,1205,numa node
+Visual,nova,I2c7b183fcb01f3cb67cb1c8b8bea7aaf5ce424f3,nova/tests/unit/virt/libvirt/test_host.py,1167,with mock patch object
+Visual,nova,I2c7b183fcb01f3cb67cb1c8b8bea7aaf5ce424f3,nova/tests/unit/virt/libvirt/test_host.py,1223,capabilities
+Visual,nova,I2c7b183fcb01f3cb67cb1c8b8bea7aaf5ce424f3,nova/tests/unit/virt/libvirt/test_host.py,1220,dev type type VF
+Visual,nova,I2c7b183fcb01f3cb67cb1c8b8bea7aaf5ce424f3,nova/tests/unit/virt/libvirt/test_host.py,1227,dev id vdpa vdpa address
+Visual,nova,I2c7b183fcb01f3cb67cb1c8b8bea7aaf5ce424f3,nova/tests/unit/virt/libvirt/test_host.py,1222,parent ifname enpsf
+Structure,nova,I2c7b183fcb01f3cb67cb1c8b8bea7aaf5ce424f3,nova/virt/libvirt/host.py,1371,finds a vdpa device by the parent VF pci device
+Structure,nova,I2c7b183fcb01f3cb67cb1c8b8bea7aaf5ce424f3,nova/virt/libvirt/host.py,1373,raises StopIteration if not found
+Visual,nova,I2ef7c5bef87bd64c087f3b136c2faac9a3865f10,nova/tests/unit/virt/libvirt/test_driver.py,8035,self flags cpu mode custom
+Interface,nova,I30c780a7729f1e7d791256bdc38d73b976c56268,nova/virt/libvirt/driver.py,705,instance system metadata hw machine type hw machine type
+Logic,nova,I32908b77c18f8ec08211dd67be49bbf903611c34,nova/tests/unit/virt/libvirt/test_driver.py,9510,supports device missing error code True
+Logic,nova,I39909ace97f62e87f326d4d822d4e4c391445765,nova/cmd/manage.py,2872,except exception CellMappingNotFound as e
+Logic,nova,I39909ace97f62e87f326d4d822d4e4c391445765,nova/tests/unit/cmd/test_manage.py,3319,ret self commands list unset cell uuid uuidsentinel cell uuid
+Structure,nova,I422a907056543f9bf95acbffdd2658438febf801,nova/tests/unit/compute/test_resource_tracker.py,2471,mock patch nova objects MigrationList get by filters
+Structure,nova,I422a907056543f9bf95acbffdd2658438febf801,nova/tests/unit/compute/test_resource_tracker.py,944,mock get migrs return value
+Structure,nova,I422a907056543f9bf95acbffdd2658438febf801,nova/tests/unit/compute/test_resource_tracker.py,1043,mock patch nova objects MigrationList get by filters
+Structure,nova,I422a907056543f9bf95acbffdd2658438febf801,nova/tests/unit/compute/test_resource_tracker.py,1293,error migrations
+Structure,nova,I422a907056543f9bf95acbffdd2658438febf801,nova/tests/unit/compute/test_resource_tracker.py,2909,mock patch nova objects MigrationList get by filters
+Structure,nova,I422a907056543f9bf95acbffdd2658438febf801,nova/tests/unit/compute/test_resource_tracker.py,2788,mock get migrs return value
+Interface,nova,I45f1df4935905170957c2ea2496c8a698a7464a2,nova/virt/libvirt/config.py,3374,def init self
+Visual,nova,I4760b01b695c94fa371b72216d398388cf981d28,nova/compute/manager.py,5026,compute utils notify about instance action context instance
+Visual,nova,I4760b01b695c94fa371b72216d398388cf981d28,nova/compute/manager.py,4953,Get stashed old vm state information to determine if guest should
+Visual,nova,I4760b01b695c94fa371b72216d398388cf981d28,nova/compute/manager.py,4955,compatibility if old vm state is not set
+Visual,nova,I4760b01b695c94fa371b72216d398388cf981d28,nova/compute/manager.py,4687,self delete stashed migration information instance
+Visual,nova,I4760b01b695c94fa371b72216d398388cf981d28,nova/compute/manager.py,4959,Revert the flavor and host node fields to their previous values
+Visual,nova,I4760b01b695c94fa371b72216d398388cf981d28,nova/compute/manager.py,4919,self
+Visual,nova,I4760b01b695c94fa371b72216d398388cf981d28,nova/compute/manager.py,5004,instance drop migration context
+Visual,nova,I4760b01b695c94fa371b72216d398388cf981d28,nova/compute/manager.py,4982,self finish revert resize network migrate finish
+Visual,nova,I4760b01b695c94fa371b72216d398388cf981d28,nova/compute/manager.py,4972,the allocation held by the migration is leaked
+Structure,nova,I59298788f26ca8f32bf3e38f3a52f72ff63fcc8b,nova/tests/unit/compute/test_compute_api.py,5200,mock ver side effect
+Structure,nova,I59298788f26ca8f32bf3e38f3a52f72ff63fcc8b,nova/tests/unit/compute/test_compute_api.py,5188,objects objects BlockDeviceMapping
+Logic,nova,I667f56612d7f63834863476694cb1f4c71a58302,nova/scheduler/request_filter.py,309,network id requested network network id
+Visual,nova,I667f56612d7f63834863476694cb1f4c71a58302,nova/scheduler/request_filter.py,319,if aggregates
+Documentation,nova,I667f56612d7f63834863476694cb1f4c71a58302,nova/scheduler/utils.py,1380,for segment id in segment ids
+Structure,nova,I667f56612d7f63834863476694cb1f4c71a58302,nova/tests/fixtures.py,1462,ip address
+Structure,nova,I667f56612d7f63834863476694cb1f4c71a58302,nova/tests/fixtures.py,1432,mac address fa e c c
+Structure,nova,I667f56612d7f63834863476694cb1f4c71a58302,nova/tests/fixtures.py,1362,network multisegment
+Structure,nova,I667f56612d7f63834863476694cb1f4c71a58302,nova/tests/fixtures.py,1970,some refactor of the fixture
+Check,nova,I667f56612d7f63834863476694cb1f4c71a58302,nova/tests/functional/test_servers.py,8380,select either host or host initially based on the segment
+Structure,nova,I667f56612d7f63834863476694cb1f4c71a58302,nova/tests/functional/test_servers.py,8310,uuid segment id
+Structure,nova,I667f56612d7f63834863476694cb1f4c71a58302,nova/tests/functional/test_servers.py,8228,query placement for routed network aggregates True
+Structure,nova,I667f56612d7f63834863476694cb1f4c71a58302,nova/tests/functional/test_servers.py,8313,self placement post
+Structure,nova,I667f56612d7f63834863476694cb1f4c71a58302,nova/tests/functional/test_servers.py,8277,a setup where the network has segments on host and host but not on
+Structure,nova,I667f56612d7f63834863476694cb1f4c71a58302,nova/tests/functional/test_servers.py,8241,self start compute host
+Structure,nova,I667f56612d7f63834863476694cb1f4c71a58302,nova/tests/functional/test_servers.py,8345,body resp
+Structure,nova,I667f56612d7f63834863476694cb1f4c71a58302,nova/tests/functional/test_servers.py,8297,from osc placement tree import utils as placement visual
+Structure,nova,I667f56612d7f63834863476694cb1f4c71a58302,nova/tests/functional/test_servers.py,8285,that host is selected by the scheduler
+Structure,nova,I667f56612d7f63834863476694cb1f4c71a58302,nova/tests/functional/test_servers.py,8286,self segment id to compute rp uuid
+Interface,nova,I67504a37b0fe2ae5da3cba2f3122d9d0e18b9481,nova/compute/manager.py,7569,requested networks requested networks
+Visual,nova,I6b80021a2f90d3379c821dc8f02a72f350169eb3,nova/cmd/manage.py,2843,print str e
+Logic,nova,I70c4715de05d64fabc498b02d5c757af9450fbe9,nova/tests/functional/libvirt/test_numa_live_migration.py,457,self assertFalse
+Logic,nova,I72a03e74fae8704546013d978e9c27a2573b219b,nova/tests/functional/libvirt/test_machine_type.py,381,self assert machine type server without id pc q
+Interface,nova,I7f3cbc57a374b2f271018a2f6ef33ef579798db8,nova/compute/api.py,5074,raise exception ForbiddenWithVDPAInterfaces
+Structure,nova,I7f3cbc57a374b2f271018a2f6ef33ef579798db8,nova/tests/functional/libvirt/test_pci_sriov_servers.py,889,num pci num pfs num vfs
+Structure,nova,I7f3cbc57a374b2f271018a2f6ef33ef579798db8,nova/tests/functional/libvirt/test_pci_sriov_servers.py,947,def test interface detach self
+Structure,nova,I7f3cbc57a374b2f271018a2f6ef33ef579798db8,nova/tests/functional/libvirt/test_pci_sriov_servers.py,940,ex self assertRaises
+Structure,nova,I7f3cbc57a374b2f271018a2f6ef33ef579798db8,nova/tests/functional/libvirt/test_pci_sriov_servers.py,933,that have VDPA ports
+Structure,nova,I7f93cfd18f948134c9cb429dea55740d2cf97994,nova/tests/unit/compute/test_compute_api.py,3722,mock sentinel volume
+Logic,nova,I7fc1ba2d2cbdb3f46f3649b1279b0c1a40457647,nova/tests/unit/virt/libvirt/test_driver.py,27370,self handler create waiter uuids instance virtio
+Logic,nova,I7fc1ba2d2cbdb3f46f3649b1279b0c1a40457647,nova/tests/unit/virt/libvirt/test_driver.py,27320,waiter self handler create waiter uuids instance virtio
+Logic,nova,I7fc1ba2d2cbdb3f46f3649b1279b0c1a40457647,nova/tests/unit/virt/libvirt/test_driver.py,27348,received event self handler wait waiter timeout
+Check,nova,I7fc1ba2d2cbdb3f46f3649b1279b0c1a40457647,nova/tests/unit/virt/libvirt/test_driver.py,27381,if no event is received
+Logic,nova,I7fc1ba2d2cbdb3f46f3649b1279b0c1a40457647,nova/virt/libvirt/driver.py,290,return event name
+Logic,nova,I7fc1ba2d2cbdb3f46f3649b1279b0c1a40457647,nova/virt/libvirt/driver.py,377,waiters keys results keys
+Logic,nova,I7fc1ba2d2cbdb3f46f3649b1279b0c1a40457647,nova/virt/libvirt/driver.py,364,if event name startswith instance uuid
+Logic,nova,I7fc1ba2d2cbdb3f46f3649b1279b0c1a40457647,nova/virt/libvirt/driver.py,351,return True
+Logic,nova,I7fc1ba2d2cbdb3f46f3649b1279b0c1a40457647,nova/virt/libvirt/driver.py,258,libvirtevent DeviceRemovalFailedEvent
+Logic,nova,I8249c572c6f727ef4ca434843106b9b57c47e585,nova/tests/functional/regressions/test_bug_1914777.py,104,uuid server id
+Documentation,nova,I8249c572c6f727ef4ca434843106b9b57c47e585,nova/tests/functional/regressions/test_bug_1914777.py,86,FIXME melwitt Uncomment when the bug is fixed
+Documentation,nova,I8249c572c6f727ef4ca434843106b9b57c47e585,nova/tests/functional/regressions/test_bug_1914777.py,75,The first lookup at the beginning of the delete request in the
+Documentation,nova,I8249c572c6f727ef4ca434843106b9b57c47e585,nova/tests/functional/regressions/test_bug_1914777.py,108,lookup of the build request occurs in the servers API to get the
+Documentation,nova,I8249c572c6f727ef4ca434843106b9b57c47e585,nova/tests/functional/regressions/test_bug_1914777.py,137,processed
+Logic,nova,I8249c572c6f727ef4ca434843106b9b57c47e585,nova/tests/functional/regressions/test_bug_1914777.py,132,cell mapping self cell mappings cell
+Logic,nova,I8249c572c6f727ef4ca434843106b9b57c47e585,nova/tests/functional/regressions/test_bug_1914777.py,160,client OpenStackApiException self delete server server
+Logic,nova,I8249c572c6f727ef4ca434843106b9b57c47e585,nova/tests/functional/regressions/test_bug_1914777.py,131,context self ctxt instance uuid uuid
+Visual,nova,I859be652eb8fff591899a223193bd9efc8830cf3,nova/compute/api.py,4641,volume id volume id
+Visual,nova,I91dd7993395f693c7d26c1caa44fa365f5cbec12,nova/tests/unit/pci/test_stats.py,634,address d dev
+Structure,nova,I91dd7993395f693c7d26c1caa44fa365f5cbec12,nova/tests/unit/virt/libvirt/test_host.py,1636,dev id pci
+Structure,nova,I91dd7993395f693c7d26c1caa44fa365f5cbec12,nova/tests/unit/virt/libvirt/test_host.py,1614,actual vf self host get pcidev info
+Check,nova,I91dd7993395f693c7d26c1caa44fa365f5cbec12,nova/tests/unit/virt/libvirt/test_host.py,1606,numa node None
+Structure,nova,I91dd7993395f693c7d26c1caa44fa365f5cbec12,nova/tests/unit/virt/libvirt/test_host.py,1658,numa node
+Structure,nova,I91dd7993395f693c7d26c1caa44fa365f5cbec12,nova/tests/unit/virt/libvirt/test_host.py,1570,dev id dev name address
+Structure,nova,I91dd7993395f693c7d26c1caa44fa365f5cbec12,nova/tests/unit/virt/libvirt/test_host.py,1651,name pci
+Check,nova,I91dd7993395f693c7d26c1caa44fa365f5cbec12,nova/tests/unit/virt/libvirt/test_host.py,1590,None xml fake libvirt data fake NodeDevXml dev name
+Structure,nova,I91dd7993395f693c7d26c1caa44fa365f5cbec12,nova/tests/unit/virt/libvirt/test_host.py,1557,pci dev fakelibvirt NodeDevice
+Structure,nova,I91dd7993395f693c7d26c1caa44fa365f5cbec12,nova/tests/unit/virt/libvirt/test_host.py,1569,expect vf
+Structure,nova,I91dd7993395f693c7d26c1caa44fa365f5cbec12,nova/tests/unit/virt/libvirt/test_host.py,1684,address
+Check,nova,I91dd7993395f693c7d26c1caa44fa365f5cbec12,nova/tests/unit/virt/libvirt/test_host.py,1620,numa node None
+Structure,nova,I91dd7993395f693c7d26c1caa44fa365f5cbec12,nova/tests/unit/virt/libvirt/test_host.py,1685,product id
+Structure,nova,I91dd7993395f693c7d26c1caa44fa365f5cbec12,nova/tests/unit/virt/libvirt/test_host.py,1687,vendor id b
+Logic,nova,I91dd7993395f693c7d26c1caa44fa365f5cbec12,nova/virt/libvirt/host.py,1390,LOG debug f parent parent dev
+Structure,nova,I91dd7993395f693c7d26c1caa44fa365f5cbec12,nova/virt/libvirt/host.py,1455,fun cap device addrs
+Structure,nova,I91dd7993395f693c7d26c1caa44fa365f5cbec12,nova/virt/libvirt/host.py,1483,Get PCI VF device s additional capabilities
+Structure,nova,I91dd7993395f693c7d26c1caa44fa365f5cbec12,nova/virt/libvirt/host.py,1524,requirement by DataBase Model
+Structure,nova,I91dd7993395f693c7d26c1caa44fa365f5cbec12,nova/virt/libvirt/host.py,1460,parent addr phys address
+Structure,nova,I91dd7993395f693c7d26c1caa44fa365f5cbec12,nova/virt/libvirt/host.py,1463,NOTE sean k mooney if the VF is a parent of a netdev
+Structure,nova,I92eb27b710f16d69cf003712431fe225a014c3a8,nova/virt/event.py,125,class DeviceRemovedEvent InstanceEvent
+Visual,nova,I92eb27b710f16d69cf003712431fe225a014c3a8,nova/virt/libvirt/host.py,397,event event uuid
+Visual,nova,I9317404f790004511db8edc08a414a706d42265f,nova/compute/manager.py,5003,context instance
+Visual,nova,I9317404f790004511db8edc08a414a706d42265f,nova/compute/manager.py,5026,Complete any volume attachments so the volumes are in use
+Visual,nova,I9317404f790004511db8edc08a414a706d42265f,nova/compute/manager.py,5011,host
+Visual,nova,I9317404f790004511db8edc08a414a706d42265f,nova/compute/manager.py,4993,raise
+Visual,nova,I9317404f790004511db8edc08a414a706d42265f,nova/compute/manager.py,5008,BDM connection info will get set in the call to
+Logic,nova,Ia875c9c3542ef4138d0d7a2c26c0cf49dcca0761,nova/pci/stats.py,362,return pool for pool in pools
+Visual,nova,Ia875c9c3542ef4138d0d7a2c26c0cf49dcca0761,nova/tests/functional/libvirt/test_pci_sriov_servers.py,1070,server self create server flavor id flavor id
+Logic,nova,Ibf8dca4bd57b3bddb39955b53cc03564506f5754,nova/tests/unit/virt/libvirt/test_driver.py,16919,expect vf
+Interface,nova,Ibf8dca4bd57b3bddb39955b53cc03564506f5754,nova/tests/unit/virt/libvirt/test_driver.py,16999,actual vf drvr get pcidev info pci
+Logic,nova,Ibf8dca4bd57b3bddb39955b53cc03564506f5754,nova/tests/unit/virt/libvirt/test_driver.py,16888,drvr host list all nodedevs
+Structure,nova,Ibf8dca4bd57b3bddb39955b53cc03564506f5754,nova/virt/libvirt/driver.py,6898,net devs
+Logic,nova,Ibf8dca4bd57b3bddb39955b53cc03564506f5754,nova/virt/libvirt/driver.py,6938,return name cfgdev name
+Structure,nova,Ibf8dca4bd57b3bddb39955b53cc03564506f5754,nova/virt/libvirt/driver.py,6923,check if the pci device is the vf and recored its name
+Structure,nova,Ibf8dca4bd57b3bddb39955b53cc03564506f5754,nova/virt/libvirt/driver.py,6932,return
+Structure,nova,Ibf8dca4bd57b3bddb39955b53cc03564506f5754,nova/virt/libvirt/driver.py,6925,then check if we have already seen it
+Structure,nova,Ibfe17ed800edd1631c580b47f6236a7229455b4f,nova/tests/unit/compute/test_compute_mgr.py,4964,return value
+Documentation,nova,Id0577bceed9808b52da4acc352cf9c204f6c8861,nova/tests/functional/regressions/test_bug_1896463.py,194,the destination host too
+Logic,nova,Id19702da05cac25192f6aa21f8f4449602ef7729,nova/compute/manager.py,7505,if not pci reqs
+Structure,nova,Id4684093e8bdf3b61667490443e3d2f6ed65f4b3,nova/compute/manager.py,7608,raise exception InterfaceAttachResourceAllocationFailed
+Visual,nova,Id4684093e8bdf3b61667490443e3d2f6ed65f4b3,nova/compute/manager.py,7549,context nova context RequestContext
+Structure,nova,Id4684093e8bdf3b61667490443e3d2f6ed65f4b3,nova/scheduler/utils.py,497,return parse urlencode sorted qparams
+Documentation,nova,Id4684093e8bdf3b61667490443e3d2f6ed65f4b3,nova/tests/functional/test_servers.py,6251,boot a server with a single sriov port that has no resource request
+Documentation,nova,Id4684093e8bdf3b61667490443e3d2f6ed65f4b3,nova/tests/functional/test_servers.py,6233,attach an ovs port with too big resource request
+Visual,nova,Id4684093e8bdf3b61667490443e3d2f6ed65f4b3,nova/tests/functional/test_servers.py,5924,self assertIn Attaching interfaces with QoS policy is
+Interface,nova,Id4684093e8bdf3b61667490443e3d2f6ed65f4b3,nova/tests/unit/compute/test_compute.py,10789,request groups resource request request group
+Logic,nova,Id4684093e8bdf3b61667490443e3d2f6ed65f4b3,nova/tests/unit/compute/test_compute.py,10881,self assertEqual
+Logic,nova,Id4684093e8bdf3b61667490443e3d2f6ed65f4b3,nova/tests/unit/compute/test_compute.py,10934,scheduler utils SingleRequestGroupBasedResourceRequest
+Structure,nova,Id94fdc6789b2bae735b0d1e9a02dce60a8f3fb40,nova/tests/functional/libvirt/test_pci_sriov_servers.py,1093,new port self neutron create port port port data
+Structure,nova,Id94fdc6789b2bae735b0d1e9a02dce60a8f3fb40,nova/tests/functional/libvirt/test_pci_sriov_servers.py,1094,port id new port port id
+Documentation,nova,Idc035671892e4668141a93763f8f2bed7a630812,nova/cmd/manage.py,2847,Return codes
+Documentation,nova,Idc035671892e4668141a93763f8f2bed7a630812,nova/cmd/manage.py,2853,Unable to move between PC and Q machine types
+Structure,nova,Idc035671892e4668141a93763f8f2bed7a630812,nova/cmd/manage.py,2797,if instance vm state not in allowed states
+Structure,nova,Idc035671892e4668141a93763f8f2bed7a630812,nova/cmd/manage.py,2860,with context target cell ctxt im cell mapping as cctxt
+Structure,nova,Idc035671892e4668141a93763f8f2bed7a630812,nova/tests/unit/cmd/test_manage.py,3320,mock target cell return value enter return value
+Structure,nova,Idc035671892e4668141a93763f8f2bed7a630812,nova/tests/unit/cmd/test_manage.py,3309,f Instance uuidsentinel instance could not be found
+Logic,nova,Idc035671892e4668141a93763f8f2bed7a630812,nova/tests/unit/cmd/test_manage.py,3102,self assertIn No machine type registered output
+Structure,nova,Idc035671892e4668141a93763f8f2bed7a630812,nova/tests/unit/cmd/test_manage.py,3217,self assertIn
+Logic,nova,Idd58298a6b01775f962b9bf0a0835f762c8e0ed2,nova/scheduler/utils.py,75,staticmethod
+Logic,nova,Ie166f3b51fddeaf916cda7c5ac34bbcdda0fd17a,nova/network/neutron.py,3545,else
+Logic,nova,Ie166f3b51fddeaf916cda7c5ac34bbcdda0fd17a,nova/scheduler/utils.py,1379,return aggregates
+Logic,nova,Ie166f3b51fddeaf916cda7c5ac34bbcdda0fd17a,nova/tests/unit/scheduler/test_scheduler_utils.py,470,agg uuids agg if segment id uuids segment else uuids agg
+Visual,nova,Iea5969d0bd16dc9a6f1ba950224b0115e466ce66,nova/compute/manager.py,7568,log level logging DEBUG
+Visual,nova,Iea5969d0bd16dc9a6f1ba950224b0115e466ce66,nova/compute/manager.py,7571,LOG log log level
+,,,,,
+Structure,nova,Iefdf9c8b024db04867bd5f8794863f0cd65de807,nova/tests/unit/virt/libvirt/test_driver.py,22775,instance self create instance
+Visual,nova,If02a263055376442a116d00c18a1599b436f21d2,nova/virt/libvirt/driver.py,1581,doesn t support the requested driver This retains legacy
+Visual,nova,If3e79cd71b6d0f6e535ff86b27483c137a78fee9,nova/compute/manager.py,7467,port id port id error ex
+Documentation,nova,If874f018ea996587e178219569c2903c2ee923cf,nova/conf/libvirt.py,906,Related options
+Structure,nova,Ifea9a15fb01c0b25e9973024f4f61faecc56e1cd,nova/tests/functional/regressions/test_bug_1879878.py,77,after the periodics we should still have usage on both hosts
+Structure,nova,Ifea9a15fb01c0b25e9973024f4f61faecc56e1cd,nova/tests/functional/regressions/test_bug_1879878.py,71,check the usage which should show usage on both hosts
+Interface,base,I1f92b86619f2ca186c505251b21463f396af0ac6,src/corelib/kernel/qtimer.cpp,68,QTimerPrivate isActiveDataForwarder
+Structure,base,I349af43468b03fd8dcb16adba02669974affe154,src/plugins/platforms/ios/quiview.mm,631,if characters isEqualToString t
+Structure,ironic,I1d253650f6a3b98dbbe4e09c167c35526f5f940c,ironic/tests/unit/drivers/test_utils.py,443,mock conf mold storage swift
+Structure,nova,I667f56612d7f63834863476694cb1f4c71a58302,nova/tests/fixtures.py,1459,mac address fa e c c
+Structure,nova,I15271fb0b8de7f1184acddd607d605837e2eb7d4,nova/tests/fixtures.py,2239,min disk
