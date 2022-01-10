@@ -39,9 +39,6 @@ The second part is data evaluation(see data_eval folder) part to evaluate the ex
 ```  
 
 ## Getting Started
-System dependencies
-For data process part, we use Ubuntu 20.04.3 LTS
-For data evaluation part, we use macOS Big Sur (11.3)
 
 ### Dependencies
 
