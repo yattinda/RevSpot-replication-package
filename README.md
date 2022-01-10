@@ -3,7 +3,7 @@
 This reproduce package is created for paper "Where Should I Look at? Recommending Lines thatReviewers Should Pay Attention To".
 
 ## Something you need to know before start
-Since the limitation of file size that allow to uploading to github, this repo only include the source code of all scripts. To re-generate the result in the paper, please follow "Evaluate result" section below. If the practioners want to train the model by themself, please download the entire replication package from zenodo [here](https://doi.org/10.5281/zenodo.5832080) and follow "Build you own model" section below and commments in the scripts. The replication package in zenodo includes all dataset and model used in the paper. 
+Since the limitation of file size that allow to uploading to github, this repo only includes the source code of all scripts and excludes the part of the dataset. To re-generate the result in the paper, please follow "Evaluate result" section below. If the practioners want to train the model by themself, please download the entire replication package from zenodo [here](https://doi.org/10.5281/zenodo.5832080) and follow "Build you own model" section below and commments in the scripts. The replication package in zenodo includes all dataset and model used in the paper. 
 
 ## Description
 
