@@ -40,7 +40,7 @@ nova_rel_s <- nova_rel %>% filter(isLarge=="Small Patches") %>% ungroup() %>% se
 apply(nova_rel_l,2,median)
 apply(nova_rel_s,2,median)
 
-nova_rel
+
 ironic_rel_l <- ironic_rel %>% filter(isLarge=="Large Patches") %>% ungroup() %>% select(c(initial_feedback_time))
 ironic_rel_s <- ironic_rel %>% filter(isLarge=="Small Patches") %>% ungroup() %>% select(c(initial_feedback_time))
 apply(ironic_rel_l,2,median)
@@ -52,6 +52,10 @@ base_rel_s <- base_rel %>% filter(isLarge=="Small Patches") %>% ungroup() %>% se
 apply(base_rel_l,2,median)
 apply(base_rel_s,2,median)
 
+#median of patch size
+median(ironic_rel$changed_line)
+median(nova_rel$changed_line)
+median(base_rel$changed_line)
 
 g4_1 <- nova_rel %>% ggplot() + geom_boxplot(aes(x=isLarge, y = initial_feedback_time, fill=isLarge), show.legend = FALSE) + coord_cartesian(ylim= c(0,600))+ scale_fill_brewer(palette = "Blues", direction=-1) + theme_bw() + labs(x="") + labs(y="Waiting Hours") + facet_grid(~dataset) + facet_wrap(~dataset,strip.position = "right") + scale_x_discrete(limits=c('Large Patches','Small Patches'))
 g4_2 <- ironic_rel %>% ggplot() + geom_boxplot(aes(x=isLarge, y = initial_feedback_time, fill=isLarge), show.legend = FALSE) + coord_cartesian(ylim= c(0,600))+ scale_fill_brewer(palette = "Blues", direction=-1) + theme_bw() + labs(x="") + labs(y="Waiting Hours") + facet_grid(~dataset) + facet_wrap(~dataset,strip.position = "right") + scale_x_discrete(limits=c('Large Patches','Small Patches'))

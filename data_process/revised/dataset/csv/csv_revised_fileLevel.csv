@@ -1,0 +1,109 @@
+Technique,Datasets,Measure,Value
+RF,nova,AUC,0.7674427003081663
+RF,nova,Precision,0.5156695156695157
+RF,nova,Recall,0.40401785714285715
+RF,nova,F1 measure,0.4530663329161451
+RF,nova,MCC,0.3492059087776338
+RF,nova,true negative,1777
+RF,nova,false positive,170
+RF,nova,false negative,267
+RF,nova,true positive,181
+LG,nova,AUC,0.6242817475603493
+LG,nova,Precision,0.36674816625916873
+LG,nova,Recall,0.33482142857142855
+LG,nova,F1 measure,0.35005834305717615
+LG,nova,MCC,0.20911434367467477
+LG,nova,true negative,1688
+LG,nova,false positive,259
+LG,nova,false negative,298
+LG,nova,true positive,150
+DT,nova,AUC,0.584426475713552
+DT,nova,Precision,0.33098591549295775
+DT,nova,Recall,0.31473214285714285
+DT,nova,F1 measure,0.32265446224256294
+DT,nova,MCC,0.17167831345157145
+DT,nova,true negative,1662
+DT,nova,false positive,285
+DT,nova,false negative,307
+DT,nova,true positive,141
+Random Guessing,nova,AUC,0.4894652487343165
+Random Guessing,nova,Precision,0.1766304347826087
+Random Guessing,nova,Recall,0.29017857142857145
+Random Guessing,nova,F1 measure,0.2195945945945946
+Random Guessing,nova,MCC,-0.017807959703329
+Random Guessing,nova,true negative,1341
+Random Guessing,nova,false positive,606
+Random Guessing,nova,false negative,318
+Random Guessing,nova,true positive,130
+RF,ironic,AUC,0.6779478789295313
+RF,ironic,Precision,0.3813953488372093
+RF,ironic,Recall,0.4120603015075377
+RF,ironic,F1 measure,0.39613526570048313
+RF,ironic,MCC,0.2005539299285651
+RF,ironic,true negative,512
+RF,ironic,false positive,133
+RF,ironic,false negative,117
+RF,ironic,true positive,82
+LG,ironic,AUC,0.5928362743952319
+LG,ironic,Precision,0.35454545454545455
+LG,ironic,Recall,0.39195979899497485
+LG,ironic,F1 measure,0.3723150357995227
+LG,ironic,MCC,0.16612613190273592
+LG,ironic,true negative,503
+LG,ironic,false positive,142
+LG,ironic,false negative,121
+LG,ironic,true positive,78
+DT,ironic,AUC,0.5373923882980796
+DT,ironic,Precision,0.2777777777777778
+DT,ironic,Recall,0.3768844221105528
+DT,ironic,F1 measure,0.3198294243070362
+DT,ironic,MCC,0.0678527906416606
+DT,ironic,true negative,450
+DT,ironic,false positive,195
+DT,ironic,false negative,124
+DT,ironic,true positive,75
+Random Guessing,ironic,AUC,0.49328425071091897
+Random Guessing,ironic,Precision,0.22596153846153846
+Random Guessing,ironic,Recall,0.23618090452261306
+Random Guessing,ironic,F1 measure,0.23095823095823095
+Random Guessing,ironic,MCC,-0.013230328899216482
+Random Guessing,ironic,true negative,484
+Random Guessing,ironic,false positive,161
+Random Guessing,ironic,false negative,152
+Random Guessing,ironic,true positive,47
+RF,base,AUC,0.6894342691283463
+RF,base,Precision,0.46537396121883656
+RF,base,Recall,0.23076923076923078
+RF,base,F1 measure,0.3085399449035813
+RF,base,MCC,0.23279862966165274
+RF,base,true negative,3133
+RF,base,false positive,193
+RF,base,false negative,560
+RF,base,true positive,168
+LG,base,AUC,0.5407115434174965
+LG,base,Precision,0.37681159420289856
+LG,base,Recall,0.21428571428571427
+LG,base,F1 measure,0.2732049036777583
+LG,base,MCC,0.173297502328493
+LG,base,true negative,3068
+LG,base,false positive,258
+LG,base,false negative,572
+LG,base,true positive,156
+DT,base,AUC,0.5628213112804213
+DT,base,Precision,0.34177215189873417
+DT,base,Recall,0.22252747252747251
+DT,base,F1 measure,0.2695507487520799
+DT,base,MCC,0.1537608833412604
+DT,base,true negative,3014
+DT,base,false positive,312
+DT,base,false negative,566
+DT,base,true positive,162
+Random Guessing,base,AUC,0.49829432443683797
+Random Guessing,base,Precision,0.1767180925666199
+Random Guessing,base,Recall,0.17307692307692307
+Random Guessing,base,F1 measure,0.17487855655794585
+Random Guessing,base,MCC,-0.00343930136825771
+Random Guessing,base,true negative,2739
+Random Guessing,base,false positive,587
+Random Guessing,base,false negative,602
+Random Guessing,base,true positive,126

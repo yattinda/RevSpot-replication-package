@@ -5,12 +5,12 @@ library(gridExtra)
 library(patchwork)
 library(effsize)
 # RQ="1" will generate the figure for RQ2.1
-# RQ = "1"
-# fileName = "commented"
+RQ = "1"
+fileName = "commented"
 
 # RQ="2" will generate the figure for RQ2.2
-RQ = "2"
-fileName = "revised"
+# RQ = "2"
+# fileName = "revised"
 
 
 #load data generated from python scripts
