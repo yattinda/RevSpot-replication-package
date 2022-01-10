@@ -90,8 +90,3 @@ Now we can start running the experiment. Just run each script from top to down.
 
 https://github.com/SLP-team/SLP-Core/blob/master/src/main/java/slp/core/example/EntropyForEachLine.java
 
-## License
-
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
-
-
