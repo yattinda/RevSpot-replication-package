@@ -2,6 +2,9 @@
 
 This reproduce package is created for paper "Where Should I Look at? Recommending Lines thatReviewers Should Pay Attention To".
 
+## Something you need to know before start
+Since the limitation of file size that allow to uploading to github, this repo only include the source code of all script. We highly recommand the practioners to download the entire replication package from zenodo [here](https://doi.org/10.5281/zenodo.5832080) and follow the instruction below and commments in the scripts. The replication package in zenodo includes all dataset and model used in the paper. 
+
 ## Description
 
 There are two main parts in our work. The first part is data process(see data_process folder) part to process the raw dataset and generate csv files. 
@@ -34,9 +37,6 @@ The second part is data evaluation(see data_eval folder) part to evaluate the ex
     └── ...
 
 ```  
-
-## Something you need to know
-Since the limitation of file size that allow to uploading to github, this repo only include the source code of all script. We highly recommand the practioners to download the entire replication package from zenodo [here](https://doi.org/10.5281/zenodo.5832080) and follow the instruction below and commments in the scripts. The replication package in zenodo includes all dataset and model used in the paper. 
 
 ## Getting Started
 System dependencies
