@@ -80,8 +80,8 @@ Run RQ2_line_analysis.R for RQ2 Figures 5.
 
 ### Executing program
 
-Due to the upload limitation of Github for the file size, we save our dataset and prebuild repoduce packpage at:
 Now we can start running the experiment. Just run each script from top to down. 
 
-https://github.com/SLP-team/SLP-Core/blob/master/src/main/java/slp/core/example/EntropyForEachLine.java
+## Reference
+To access the source code of baseline alogrithm. Click [here](https://github.com/SLP-team/SLP-Core/blob/master/src/main/java/slp/core/example/EntropyForEachLine.java)
 
