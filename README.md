@@ -11,9 +11,9 @@ The second part is data evaluation(see data_eval folder) part to evaluate the ex
     .
     ├── ...
     ├── data_eval                 # Data evaluation (R)
-    │   ├── RQ1_analysis.R.       # File level evaluation for RQ1
-    │   ├── RQ2-3-analysis.R      # Line level evaluation for RQ2-3
-    │   └── motivation.R          # Motivation 
+    │   ├── RQ1_analysis.R.       # Evaluation for RQ1
+    │   ├── RQ2_file_analysis.R   # File level evaluation for RQ2
+    │   └── RQ2_line-analysis.R      # Line level evaluation for RQ2	
     ├── data_process              # Data process (Python)
     │   ├── commented             # Predict the inline comment location
     │   │   ├── dataset               # dataset
@@ -23,16 +23,25 @@ The second part is data evaluation(see data_eval folder) part to evaluate the ex
     │   │   ├── lime-feature-model    # trained LIME model
     │   │   ├── lineLevel             # raw data for line level model
     │   └── └── ml-model               # trained file-level model
-    │   │   ├── File_Level.ipynb  # File level data process for RQ1
-    │   │   ├── Line_level.ipynb  # Line level data process for RQ2-3
+    │   │   ├── File_Level.ipynb  # File level data process for RQ2
+    │   │   ├── Line_level.ipynb  # Line level data process for RQ2
     │   ├── revised               # Predict the lines to be revised
-    │   │   ├── File_Level.ipynb  # File level data process for RQ1
-    │   │   └── Line_level.ipynb  # Line level data process for RQ2-3
+    │   │   ├── File_Level.ipynb  # File level data process for RQ2
+    │   │   └── Line_level.ipynb  # Line level data process for RQ2
     ├── SLP-Core                  # ngram baseline approach
+    ├── RQ3 			# Manual test results for RQ3 
     ├── env                       # Conda environment files
     └── ...
-```   
+
+```  
+
+## Something need to attention
+Since the limitation of file size that allow to uploading to github, this repo only include the source code of all script. We highly recommand the practioners to download the entire replication package from zenodo [here](https://doi.org/10.5281/zenodo.5832080). The package in zenodo includes all dataset and model used in the paper. 
+
 ## Getting Started
+System dependencies
+For data process part, we use Ubuntu 20.04.3 LTS
+For data evaluation part, we use macOS Big Sur (11.3)
 
 ### Dependencies
 
@@ -57,12 +66,30 @@ conda activate YOUR_ENV
 ```
 It will install all dependencies need for the experiment.
 
+###  Running the code 
+To get file level model and result: 
+run File_level.ipynb from top to bottom in directory data_process/commented/File_level.ipynb for predicting "comment" task
+run File_level.ipynb from top to bottom in directory data_process/revised/File_level.ipynb for predicting "revise" task
+
+To get line level model and result: 
+run Line_level.ipynb from top to bottom in directory data_process/commented/Line_level.ipynb for predicting "comment" task
+run Line_level.ipynb from top to bottom in directory data_process/revised/Line_level.ipynb for predicting "revise" task
+
+###  Evaluation
+First, please set session to the source code file. For R studio, you can set by session -> set working directory -> to source file location. Otherwise, the program cannot find the files.
+
+To generate the figures in the paper:
+Run RQ1_analysis.R  for Figure 4
+Run RQ2_file_analysis.R for Figures 3.
+Run RQ2_line_analysis.R for RQ2 Figures 5.
+
 ### Executing program
 
 Due to the upload limitation of Github for the file size, we save our dataset and prebuild repoduce packpage at:
 Now we can start running the experiment. Just run each script from top to down. 
 
 https://github.com/SLP-team/SLP-Core/blob/master/src/main/java/slp/core/example/EntropyForEachLine.java
+
 ## License
 
 This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
