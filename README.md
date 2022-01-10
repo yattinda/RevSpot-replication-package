@@ -83,5 +83,5 @@ Run RQ2_line_analysis.R for RQ2 Figures 5.
 Now we can start running the experiment. Just run each script from top to down. 
 
 ## Reference
-To access the source code of baseline alogrithm. Click [here](https://github.com/SLP-team/SLP-Core/blob/master/src/main/java/slp/core/example/EntropyForEachLine.java)
+To access the source code of baseline alogrithm, click [here](https://github.com/SLP-team/SLP-Core/blob/master/src/main/java/slp/core/example/EntropyForEachLine.java)
 
