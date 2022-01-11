@@ -1,13 +1,13 @@
-# Replication-Package
+# RevSpot-Replication-Package
 
-This reproduce package is created for paper "Where Should I Look at? Recommending Lines thatReviewers Should Pay Attention To".
+This replication package is created for the paper titled "Where Should I Look at? Recommending Lines that Reviewers Should Pay Attention To", which is published at the 29th IEEE International Conference on Software Analysis, Evolution and Reengineering (SANER).
 
 ## Something you need to know before start
 Since the limitation of file size that allow to uploading to github, this repo only includes the source code of all scripts and excludes the part of the dataset. To re-generate the result in the paper, please follow "Evaluate result" section below. If the practioners want to train the model by themself, please download the entire replication package from zenodo [here](https://doi.org/10.5281/zenodo.5832080) and follow "Build you own model" section below and commments in the scripts. The replication package in zenodo includes all dataset and model used in the paper. 
 
 ## Description
 
-There are two main parts in our work. The first part is data process(see data_process folder) part to process the raw dataset and generate csv files. 
+There are two main parts in our work. The first part is data process (see data_process folder) part to process the raw dataset and generate csv files. 
 We implement the experiment for this part with Python, Jupyter notebook for IDE and Conda for environment.
 The second part is data evaluation(see data_eval folder) part to evaluate the experiment result with csv files generated in previous step. We use R and R studio for IDE in this part. The package structure with respect to RQ is as follows:
 ```
@@ -68,8 +68,8 @@ conda activate YOUR_ENV
 ```
 It will install all dependencies need for the experiment.
 
-###  Build you own model
-To build your own model, please download entire replication package from zenodo [here](https://doi.org/10.5281/zenodo.5832080) and use scripts in data_process folder.
+###  Model Building
+To build your own model, please download the entire replication package from zenodo [here](https://doi.org/10.5281/zenodo.5832080) and use scripts in data_process folder.
 To get file level model and result: 
 run File_level.ipynb from top to bottom in directory data_process/commented/File_level.ipynb for predicting "comment" task
 run File_level.ipynb from top to bottom in directory data_process/revised/File_level.ipynb for predicting "revise" task
@@ -78,19 +78,24 @@ To get line level model and result:
 run Line_level.ipynb from top to bottom in directory data_process/commented/Line_level.ipynb for predicting "comment" task
 run Line_level.ipynb from top to bottom in directory data_process/revised/Line_level.ipynb for predicting "revise" task
 
-###  Evaluate result
-To evaluate the result, please use the scripts in data_eval folder.
-First, please set session to the source code file. For R studio, you can set by session -> set working directory -> to source file location. Otherwise, the program cannot find the files.
+###  Results Analysis
+To analyze the result, please use the R scripts in data_eval folder.
+First, please set the working directory to the source code file. For R studio, you can set by session -> set working directory -> to source file location. Otherwise, the program cannot find the files.
 
 To generate the figures in the paper:
 Run RQ1_analysis.R  for Figure 4
 Run RQ2_file_analysis.R for Figures 3.
 Run RQ2_line_analysis.R for RQ2 Figures 5.
 
-### Executing program
+### Executing the scripts
 
-Now we can start running the experiment. Just run each script from top to down. 
+Now we can start running the experiment. Just run each script from top to bottom. 
 
 ## Reference
-To access the source code of baseline alogrithm, click [here](https://github.com/SLP-team/SLP-Core/blob/master/src/main/java/slp/core/example/EntropyForEachLine.java)
+
+Please use the following reference for this replication package:
+
+    Yang Hong, Chakkrit Tantithamthavorn, Patanamon Thongtanunam, "Where Should I Look at? 
+    Recommending Lines that Reviewers Should Pay Attention To", in Proceedings of the 29th 
+    IEEE International Conference on Software Analysis, Evolution and Reengineering (SANER), 2022.
 
